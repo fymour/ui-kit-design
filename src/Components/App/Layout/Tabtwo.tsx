@@ -1,50 +1,33 @@
-import React from "react";
-import { Button } from '../../../ui-kit/Button/Button';
+import React from 'react'
 import { ITab } from "ui-kit/Tabs";
 import { Tabs } from "../../../ui-kit/Tabs/Tabs";
 import { useState } from "react";
-import './Layout.scss'
-import Tabtree from "./Tabtree";
-import Tabtwo from "./Tabtwo";
-// interface ILayoutProps {
-//   children: React.ReactNode;
-// }
-  
 
 
-export const Layout = () => {
+const Tabtwo = () => {
 
-  const tabs: ITab[] = [
-    { id: "1", label: "Label №1" },
-    { id: "2", label: "Label №2" },
-    { id: "3", label: "Label №3" },
-    { id: "4", label: "Label №4" },
-    { id: "5", label: "Label №5" },
-  ];
+    const tabs: ITab[] = [
+        { id: "1", label: "Label №1" },
+        { id: "2", label: "Label №2" },
+        { id: "3", label: "Label №3" },
+        { id: "4", label: "Label №4" },
+        { id: "5", label: "Label №5" },
+      ];
+    
+      const [selectedTabId, setSelectedTabId] = useState(tabs[0].id);
+    
+      const handleTabClick = (id: string | number) => {
+        setSelectedTabId(id);
+      };
 
-  const [selectedTabId, setSelectedTabId] = useState(tabs[0].id);
-
-  const handleTabClick = (id: string | number) => {
-    setSelectedTabId(id);
-  };
 
   return (
-    <div className="layout">
-      <Button 
-        variant="primary"
-        size="medium"
-        disabled={false}
-        hover={true}
-        children='Default' 
-        disableStyle={""} 
-        hoverStyle={""} 
-        activeStyle={""}        
-      />
-       <section className="TabsPage">
-      <h2>Tabs normal</h2>
+    <div>
+        <section className="TabsPage">
+      <h2>Tabs outlined</h2>
 
       
-      <Tabs variant="normal" selectedId={selectedTabId} tabs={tabs} onClick={handleTabClick} />
+      <Tabs variant="outlined" selectedId={selectedTabId} tabs={tabs} onClick={handleTabClick} />
       <div className="TabsPage-Content">
         {selectedTabId === tabs[0].id && (
           <div>
@@ -86,16 +69,9 @@ export const Layout = () => {
     <hr />
 
       </div>
-
     </section>
-
-
-          <Tabtwo/>
-
-          <Tabtree/>
-    
     </div>
   )
-};
+}
 
-export default Layout;
+export default Tabtwo
