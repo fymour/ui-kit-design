@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+}
+
+.menu{
+    background-color: #18569E;
+    width: 25%;
+    padding: 15px;
+    height: fit-content;
+}
+
+.menu div{
+    color: #ECF0FF;
+    padding: 15px;
+    border-bottom: 2px solid #ECF0FF;
+    font-weight: 400;
+}
+
+.menu div:hover{
+    background: #ECF0FF;
+    color: #18569E;
+}

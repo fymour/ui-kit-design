@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from '../../../ui-kit/Button/Button';
+import Home from "../../Home/Home";
 
 // interface ILayoutProps {
 //   children: React.ReactNode;
@@ -8,13 +8,7 @@ import { Button } from '../../../ui-kit/Button/Button';
 export const Layout = () => {
   return (
     <div className="layout">
-      <Button 
-        variant="primary"
-        size="medium"
-        disabled={false}
-        hover={true}
-        children='Default' disableStyle={""} hoverStyle={""} activeStyle={""}        
-      />
+      <Home/>
     </div>
   )
 };
