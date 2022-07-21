@@ -20,12 +20,6 @@ export const Layout = () => {
     { id: "5", label: "Label №5" },
   ];
 
-  const [selectedTabId, setSelectedTabId] = useState(tabs[0].id);
-
-  const handleTabClick = (id: string | number) => {
-    setSelectedTabId(id);
-  };
-
   return (
     <div className="layout">
       <Home/>
