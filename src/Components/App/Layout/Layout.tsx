@@ -88,8 +88,6 @@ export const Layout = () => {
       </div>
 
     </section>
-
-
           <Tabtwo/>
 
           <Tabtree/>
