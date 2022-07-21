@@ -1,0 +1,27 @@
+.scroll{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+.scrollareaOne {
+    overflow-x: hidden; 
+    width: 300px; 
+    height: 200px; 
+    padding: 5px;
+    white-space: nowrap; 
+} 
+.scrollareaOneIn{
+    height: 900px;
+}
+
+.scrollareah{
+    overflow-x: scroll; 
+    width: 300px;
+    height: 200px; 
+    padding: 5px;
+    white-space: nowrap;
+}
+.scrollareahIn{
+    width: 1000px;
+    
+}
