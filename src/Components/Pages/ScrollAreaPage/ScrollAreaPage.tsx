@@ -5,11 +5,12 @@ import '../../../index.scss'
 const ScrollAreaPage = () => {
   return (
     <div className='scroll'>
-        <div className='scrollareaOne'>
-            <div className='scrollareaOneIn'></div>
-        </div>
         <div className='scrollareah'>
-          <div className="scrollareahIn"></div></div>
+          <div className="scrollareahIn"></div>
+          </div>
+          <div className='scrollareaOne'>
+              <div className='scrollareaOneIn'></div>
+          </div>
     </div>
   )
 }
