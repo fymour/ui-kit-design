@@ -6,6 +6,7 @@ export const ButtonPage = () => {
     <div>
         <Button children={"Button"} disableStyle={''} hoverStyle={''} activeStyle={''}/>
         <Button children={"Button"} disabled={true} disableStyle={''} hoverStyle={''} activeStyle={''}/>
+        <Button children={"aidar"} disableStyle={''} hoverStyle={''} activeStyle={''} variant={'secondary'} size={"large"}/>
     </div>
   )
 }
