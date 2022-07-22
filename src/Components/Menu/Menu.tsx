@@ -10,7 +10,7 @@ export default function Menu() {
         <Link to="/input"><div>Input</div></Link>
         <Link to="/tabs"><div>Tabs</div></Link>
         <Link to="/collapse"><div>Collapse</div></Link>
-        <Link to="/dropdownMenu"><div>DropdownMenu</div></Link>
+        <Link to="/footer"><div>Footer</div></Link>
         <Link to="/scrollArea"><div>ScrollArea</div></Link>
     </div>
   )

@@ -8,6 +8,8 @@ import InputPage from './InputPage/InputPage';
 import ScrollAreaPage from './ScrollAreaPage/ScrollAreaPage';
 import TabsPage from './TabsPage/TabsPage';
 
+import { FooterPage } from './FooterPage/FooterPage';
+
 export default function Pages() {
   return (
     <div className='pages'>
@@ -18,6 +20,8 @@ export default function Pages() {
           <Route path="/input" element={<InputPage/>}/> 
           <Route path="/scrollarea" element={<ScrollAreaPage/>}/> 
           <Route path="/tabs" element={<TabsPage/>}/> 
+          <Route path="/footer" element={<FooterPage/>}/> 
+
         </Routes>
     </div>
   )
