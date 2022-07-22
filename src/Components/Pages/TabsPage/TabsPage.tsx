@@ -17,6 +17,8 @@ const TabsPage = () => {
 
     return (
         <div>
+            <h1>Описание</h1>
+            <p>Tab — это компонент, который систематизирует контент, группируя похожую информацию на одной странице. Это позволяет просматривать контент без необходимости уходить с этой страницы.</p>
             <section className="TabsPage">
                 <h2>Tabs</h2>
                 <Tabs selectedId={selectedTabId} tabs={tabs} onClick={handleTabClick} />
