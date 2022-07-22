@@ -2,6 +2,7 @@
    color: #fff;
     background-color: #002D6E;
     
+    
 }
 ul{
     color: #fff;
@@ -24,14 +25,40 @@ li{
     list-style: none;
     padding-top: 20px;
 }
-.footer-row{
+.row{
     display: flex;
-    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+    // padding-right: 150px;
+}
 
+.footer-row{
+    width: 100%;
+    display: flex;
+}
+.second{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    
+}
+.second-p{
+    display: flex;
+    width: 60%;
     justify-content: space-around;
 }
-p{
+.second-p-inside{
     display: flex;
-    width: 58%;
+    width: 70%;
     justify-content: flex-start;
+}
+.second-icons{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+.second-icons-inside{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
 }

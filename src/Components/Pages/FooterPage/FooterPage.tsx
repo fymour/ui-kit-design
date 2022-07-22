@@ -13,7 +13,9 @@ import youtube from '../../../ui-kit/Assets/icons/youtube.svg'
 export const FooterPage = () => {
   return (
     <Footer>
-        <Row>
+        <Row className="">
+            <div className='row'>
+
         <FooterGroup title={'Salam'}>
             <FooterLink href={'#'}>
                 snljnljndsln
@@ -82,16 +84,42 @@ export const FooterPage = () => {
                 snljnljndsln
             </FooterLink>
         </FooterGroup>
+        </div>
+
         </Row>
 
-        <Row>
-            <p>
-            Кыргызская Республика, 2022
-            </p>
-            <FooterLink href={''}>
-                inst
-            </FooterLink>
-        </Row>
+        <Row className={''}>
+            <div className="second">
+                <div className="second-p">
+                    <div className="second-p-inside">
+                        <p>
+                        Кыргызская Республика, 2022
+                        </p>
+
+                    </div>
+                </div>
+                <div className="second-icons">
+                    <div className="second-icons-inside">
+                        <FooterLink href={''}>
+                            <img src={facebook} alt="" />
+                        </FooterLink>
+                        <FooterLink href={''}>
+                            <img src={instagram} alt="" />
+                        </FooterLink>
+                        <FooterLink href={''}>
+                            <img src={vk} alt="" />
+                        </FooterLink>
+                        <FooterLink href={''}>
+                            <img src={vimeo} alt="" />
+                        </FooterLink>
+                        <FooterLink href={''}>
+                            <img src={youtube} alt="" />
+                        </FooterLink>
+                    </div>
+                </div>
+            </div>
+        </Row> 
+
     </Footer>
   )
 }
