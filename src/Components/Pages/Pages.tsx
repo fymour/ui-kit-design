@@ -10,6 +10,7 @@ import TabsPage from './TabsPage/TabsPage';
 import { FooterPage } from './FooterPage/FooterPage';
 import { Glossary } from './Glossary/Glossary';
 
+
 export default function Pages() {
   return (
     <div className='pages'>
@@ -22,6 +23,8 @@ export default function Pages() {
           <Route path="/footer" element={<FooterPage/>}/> 
           <Route path="/scrollarea" element={<ScrollAreaPage/>}/> 
           <Route path="/tabs" element={<TabsPage/>}/> 
+          <Route path="/footer" element={<FooterPage/>}/> 
+
         </Routes>
     </div>
   )
