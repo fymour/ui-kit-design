@@ -7,7 +7,6 @@ type AllProps = Condition & InputProps;
 
 type Condition = {
     disabled?: boolean, 
-    success?: boolean,
 }
 
 type InputProps = {
@@ -15,6 +14,10 @@ type InputProps = {
     label: string,
     value?: string,
     placeholder: string,
+    success?: string,
+    error?: string,
+    errorMessage?: string,
+    hoverStyle?: string,
     
     onChange: (str: string) => void,
     size?: 'large' | 'medium' | 'small';
@@ -26,8 +29,12 @@ export const Input = ({
     label = '',
     placeholder = '',
     disabled = false,
+    hoverStyle,
+    success,
     onChange,
     value,
+    error,
+    errorMessage,
     size = 'medium',
     ...props
 }: AllProps, ) => {
@@ -39,12 +46,15 @@ export const Input = ({
             </label>
             <input
                 id={id}
-                className={`input--${size}` }
+                className={[`input--${size}`, `input--${error}`, `input--${success}`, `input--${hoverStyle}`].join(' ') }
                 disabled={disabled}
                 onChange={e => onChange(e.target.value)}
                 value={value}
                 placeholder={placeholder}
-                {...props} />
+                {...props}
+            />
+            <p className='input--message'>{errorMessage}</p>
+
         </>
     )
 }
