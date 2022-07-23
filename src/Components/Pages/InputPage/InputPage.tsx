@@ -19,12 +19,12 @@ const InputPage = () => {
       <Input id={'1'} errorMessage={'Wrong message'} error={'error'} label={'Error'} placeholder={'Enter the value'} size={'medium'} onChange={function (str: string): void {
               throw new Error('Function not implemented.')
       } }/>
-      <h3>Hover input</h3>
-      <Input id={'1'} hoverStyle={'hoverStyle'} label={'Hover'} placeholder={'Enter the value'} size={'medium'} onChange={function (str: string): void {
+       <h3>Disabled input</h3>
+      <Input id={'1'} disabled={true} label={'Disabled'} placeholder={'Enter the value'} size={'medium'} onChange={function (str: string): void {
               throw new Error('Function not implemented.')
       } }/>
-      <h3>Disabled input</h3>
-      <Input id={'1'} disabled={true} label={'Disabled'} placeholder={'Enter the value'} size={'medium'} onChange={function (str: string): void {
+      <h3>Hover input</h3>
+      <Input id={'1'} hoverStyle={'hoverStyle'} label={'Hover'} placeholder={'Enter the value'} size={'medium'} onChange={function (str: string): void {
               throw new Error('Function not implemented.')
       } }/>
     </div>
