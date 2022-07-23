@@ -11,7 +11,7 @@ export const FooterLink = (
 
     }:FooterLinkProps) => {
   return (
-    <li>
+    <li className='footer-li'>
         <a href={href}>
             {children}
         </a>

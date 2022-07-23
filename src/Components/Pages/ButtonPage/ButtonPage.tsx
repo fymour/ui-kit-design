@@ -11,7 +11,7 @@ export const ButtonPage = () => {
         Button символизирует какое-то локальное действие на текущей странице, в то время как Link - это переход на другую страницу.</p>
       <h3>Default</h3>
       <p>Исходный вид кнопки</p>
-     <div className="row">
+     <div className="row-button">
      <div className='right'>
       <Button children={"Default"} disableStyle={''} hoverStyle={''} activeStyle={''} />
       </div>
@@ -19,7 +19,7 @@ export const ButtonPage = () => {
      </div>
       <h3>Hover</h3>
       <p>Используется при наведении мыши на кнопку</p>
-      <div className="row">
+      <div className="row-button">
         <div className='right'>
       <Button children={"Hover State"} hover={true} disableStyle={''} hoverStyle={''} activeStyle={''} />
       </div>
@@ -27,7 +27,7 @@ export const ButtonPage = () => {
       </div>
       <h3>Disabled</h3>
       <p>Используется, когда пользователь не может пройти дальше пока не совершит определенное дейcтвие</p>
-      <div className="row">
+      <div className="row-button">
       <div className='right'>
       <Button children={"Disabled State"} disabled={true} disableStyle={''} hoverStyle={''} activeStyle={''} />
       </div>
@@ -38,7 +38,7 @@ export const ButtonPage = () => {
       <Button children={"Inactive State"} variant='secondary' active={false} disableStyle={''} hoverStyle={''} activeStyle={''} />
       <h3>Active</h3>
       <p>Используется, когда ты нажал кнопку мыши но еще не отпустил </p>
-      <div className="row">
+      <div className="row-button">
       <div className='right'>
       <Button children={"Active"} disableStyle={''} hoverStyle={''} activeStyle={''} />
       </div>

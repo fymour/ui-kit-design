@@ -8,7 +8,7 @@ interface FooterGroupProps {
 }
 export const FooterGroup = ({title, children}: FooterGroupProps) => {
   return (
-    <ul>
+    <ul className='footer-ul'>
         {title}
         {children}
     </ul>

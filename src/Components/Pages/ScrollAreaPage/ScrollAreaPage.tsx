@@ -10,7 +10,7 @@ const ScrollAreaPage = () => {
       </p>
       <div className='scroll'>
         <div className='scrollareah'>
-          <div className="scrollareahIn">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</div>
+          <div className="scrollareahIn"></div>
         </div>
         <div className='scrollareaOne'>
           <div className='scrollareaOneIn'></div>
