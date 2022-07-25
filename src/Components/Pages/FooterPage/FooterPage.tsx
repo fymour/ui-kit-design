@@ -16,72 +16,51 @@ export const FooterPage = () => {
         <Row className="">
             <div className='row'>
 
-        <FooterGroup title={'Salam'}>
+        <FooterGroup title={'Категория 1'}>
             <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 1
             </FooterLink>
             <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 2
             </FooterLink>
             <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 3
             </FooterLink>
             <FooterLink href={'#'}>
-                snljnljndsln
-            </FooterLink>
-            <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 4
             </FooterLink>
         </FooterGroup>
-        <FooterGroup title={'Salam'}>
+        <FooterGroup title={'Категория 2'}>
             <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 1
             </FooterLink>
             <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 2
             </FooterLink>
             <FooterLink href={'#'}>
-                snljnljndsln
-            </FooterLink>
-            <FooterLink href={'#'}>
-                snljnljndsln
-            </FooterLink>
-            <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 3
             </FooterLink>
         </FooterGroup>
-        <FooterGroup title={'Salam'}>
+        <FooterGroup title={'Категория 3'}>
             <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 1
             </FooterLink>
             <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 2
             </FooterLink>
             <FooterLink href={'#'}>
-                snljnljndsln
-            </FooterLink>
-            <FooterLink href={'#'}>
-                snljnljndsln
-            </FooterLink>
-            <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 3
             </FooterLink>
         </FooterGroup>
-        <FooterGroup title={'Salam'}>
+        <FooterGroup title={'Категория 4'}>
             <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 1
             </FooterLink>
             <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 2
             </FooterLink>
             <FooterLink href={'#'}>
-                snljnljndsln
-            </FooterLink>
-            <FooterLink href={'#'}>
-                snljnljndsln
-            </FooterLink>
-            <FooterLink href={'#'}>
-                snljnljndsln
+                Блок 3
             </FooterLink>
         </FooterGroup>
         </div>
