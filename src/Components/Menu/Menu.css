@@ -8,13 +8,14 @@ a{
     height: fit-content;
 }
 
+.description-menu{
+    font-weight: 500;
+}
+
 .title-menu{
     padding: 24px;
 }
 
-.description-menu{
-    font-weight: 500;
-}
 
 .version{
     color: #8691A8;
