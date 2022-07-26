@@ -25,7 +25,7 @@ export default function Menu() {
     <div className='menu'>
       <div className='title'>
         <img src={img} alt="" />
-        <p>Дизайн стандарт для сайтов,
+        <p className='description'>Дизайн стандарт для сайтов,
           порталов и информационных систем правоохранительных органов
         </p>
         <p className='version'>Версия 1.0</p>

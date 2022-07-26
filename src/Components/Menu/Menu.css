@@ -12,6 +12,14 @@ a{
     padding: 24px;
 }
 
+.description{
+    font-weight: 500;
+}
+
+.version{
+    color: #8691A8;
+}
+
 .section{
     color: #101828;
     font-weight: 400;
