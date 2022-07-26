@@ -4,7 +4,7 @@ import { Input } from '../../../ui-kit/Input/Input'
 const InputPage = () => {
   return (
     <div>
-        <Input id={'1'} label={'Empty'} placeholder={'Enter yuor value'} size={'medium'} onChange={function (str: string): void {
+        <Input id={'1'} label={'Empty'} placeholder={'Enter your value'} size={'medium'} onChange={function (str: string): void {
               throw new Error('Function not implemented.')
           } }/>
     </div>

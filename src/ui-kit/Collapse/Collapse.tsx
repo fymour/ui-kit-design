@@ -37,6 +37,7 @@ export const Collapse = ({
     const handleFilterOpening = () => {
         setIsOpen((prev) => !prev);
     };
+    
     useEffect(() => {
         if (!height || !isOpen || !ref.current) return undefined;
         // @ts-ignore
@@ -59,7 +60,11 @@ export const Collapse = ({
         <>
             <div className={collapsibleClassName}>
                 <div>
-                    <div className={headerClassName}>
+                    
+                    <div className={headerClassName}
+                        onClick={handleFilterOpening}
+                    >
+                        
                         <div className={titleClassName}>{header}</div>
                         <button
                             type="button"
@@ -67,7 +72,9 @@ export const Collapse = ({
                             onClick={handleFilterOpening}
                         >
                             <img className={`${isOpen ? "rotate-center-edonec down"
-                                : "rotate-center-edonec up"}`} src={iconDown} alt="33" />
+                                : "rotate-center-edonec up"}`} src={iconDown} alt="33" 
+                            onClick={handleFilterOpening}
+                            />
 
                         </button>
                     </div>
