@@ -23,7 +23,7 @@ export default function Menu() {
   }
   return (
     <div className='menu'>
-      <div>
+      <div className='title'>
         <img src={img} alt="" />
         <p>Дизайн стандарт для сайтов,
           порталов и информационных систем правоохранительных органов
@@ -61,12 +61,12 @@ export default function Menu() {
         </svg></div>
         </div>
         {showThird && <div className='show-menu'>
-          <div>Button</div>
-          <div>Input</div>
-          <div>Tabs</div>
-          <div>Collapse</div>
-          <div>Footer</div>
-          <div>ScrollArea</div>
+          <Link to='/button'><div>Button</div></Link>
+          <Link to='/input'><div>Input</div></Link>
+          <Link to='/tabs'><div>Tabs</div></Link>
+          <Link to='/collapse'><div>Collapse</div></Link>
+          <Link to='/footer'><div>Footer</div></Link>
+          <Link to='/scrollarea'><div>ScrollArea</div></Link>
         </div>}
       </div>
       <div>
