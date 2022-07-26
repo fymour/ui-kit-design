@@ -6,6 +6,7 @@ const ScrollAreaPage = () => {
   return (
     <div>
       <h1>Описание</h1>
+      <div className='pages-description'>
       <p>ScrollArea (Скроллер) - это компонентный контейнер для отображения прокручиваемых областей в пользовательском интерфейсе.
       </p>
       <div className='scroll'>
@@ -15,6 +16,7 @@ const ScrollAreaPage = () => {
         <div className='scrollareaOne'>
           <div className='scrollareaOneIn'></div>
         </div>
+      </div>
       </div>
     </div>
   )
