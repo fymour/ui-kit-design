@@ -24,7 +24,7 @@ export default function Menu() {
   return (
     <div className='menu'>
       <div className='title-menu'>
-        <Link to='/'><img src={img} alt="" /></Link>
+        <Link to='/'> <img src={img} alt="" /> </Link>
         <p className='description-menu'>Дизайн стандарт для сайтов,
           порталов и информационных систем правоохранительных органов
         </p>
