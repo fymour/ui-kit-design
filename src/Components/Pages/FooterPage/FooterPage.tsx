@@ -11,196 +11,284 @@ import youtube from '../../../ui-kit/Assets/icons/youtube.svg'
 
 
 export const FooterPage = () => {
-  return (
-    <>
-    <Footer>
-        <Row className="">
-            <div className='row'>
+    return (
+        <>
+            <Footer>
+                <Row className="row">
 
-        <FooterGroup title={'Категория 1'}>
-            <FooterLink href={'#'}>
-                Блок 1
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 2
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 3
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 4
-            </FooterLink>
-        </FooterGroup>
-        
-        <FooterGroup title={'Категория 2'}>
-            <FooterLink href={'#'}>
-                Блок 1
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 2
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 3
-            </FooterLink>
-        </FooterGroup>
-        <FooterGroup title={'Категория 3'}>
-            <FooterLink href={'#'}>
-                Блок 1
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 2
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 3
-            </FooterLink>
-        </FooterGroup>
-        <FooterGroup title={'Категория 4'}>
-            <FooterLink href={'#'}>
-                Блок 1
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 2
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 3
-            </FooterLink>
-        </FooterGroup>
-        </div>
+                        <FooterGroup title={'Категория 1'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 4
+                            </FooterLink>
+                        </FooterGroup>
 
-        </Row>
-        <div className="line">
-            <div className="line-in">
+                        <FooterGroup title={'Категория 2'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                        </FooterGroup>
+                        <FooterGroup title={'Категория 3'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                        </FooterGroup>
+                        <FooterGroup title={'Категория 4'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                        </FooterGroup>
 
-            </div>
-        </div>
+                </Row>
 
-        <Row className={''}>
-            <div className="second">
-                <div className="second-p">
-                    <div className="second-p-inside">
-                        <p>
-                        Кыргызская Республика, 2022
-                        </p>
+                <div className="line">
+                    <div className="line-in">
 
                     </div>
                 </div>
-                <div className="second-icons">
-                    <div className="second-icons-inside">
-                        <FooterLink href={''}>
-                            <img src={facebook} alt="" />
-                        </FooterLink>
-                        <FooterLink href={''}>
-                            <img src={instagram} alt="" />
-                        </FooterLink>
-                        <FooterLink href={''}>
-                            <img src={vk} alt="" />
-                        </FooterLink>
-                        <FooterLink href={''}>
-                            <img src={vimeo} alt="" />
-                        </FooterLink>
-                        <FooterLink href={''}>
-                            <img src={youtube} alt="" />
-                        </FooterLink>
+
+                    <div className="second">
+                        <div className="second-p">
+                            <div className="second-p-inside">
+                                <p>
+                                    Кыргызская Республика, 2022
+                                </p>
+
+                            </div>
+                        </div>
+                        <div className="second-icons">
+                            <div className="second-icons-inside">
+                                <FooterLink href={''}>
+                                    <img src={facebook} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={instagram} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={vk} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={vimeo} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={youtube} alt="" />
+                                </FooterLink>
+                            </div>
+                        </div>
+                    </div>
+
+            </Footer>
+
+            <div className='pad'></div>
+            <Footer size='small'>
+                <Row className="row">
+
+                        <FooterGroup title={'Категория 1'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 4
+                            </FooterLink>
+                        </FooterGroup>
+                        <FooterGroup title={'Категория 2'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                        </FooterGroup>
+                        <FooterGroup title={'Категория 3'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                        </FooterGroup>
+                        <FooterGroup title={'Категория 4'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                        </FooterGroup>
+
+                </Row>
+                <div className="line">
+                    <div className="line-in">
+
                     </div>
                 </div>
-            </div>
-        </Row> 
+                    <div className="second">
+                        <div className="second-p">
+                            <div className="second-p-inside">
+                                <p>
+                                    Кыргызская Республика, 2022
+                                </p>
 
-    </Footer>
-    <div className='pad'></div>
-    <Footer size='small'>
-        <Row className="">
-            <div className='row'>
+                            </div>
+                        </div>
+                        <div className="second-icons">
+                            <div className="second-icons-inside">
+                                <FooterLink href={''}>
+                                    <img src={facebook} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={instagram} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={vk} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={vimeo} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={youtube} alt="" />
+                                </FooterLink>
+                            </div>
+                        </div>
+                    </div>
 
-        <FooterGroup title={'Категория 1'}>
-            <FooterLink href={'#'}>
-                Блок 1
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 2
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 3
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 4
-            </FooterLink>
-        </FooterGroup>
-        <FooterGroup  title={'Категория 2'}>
-            <FooterLink href={'#'}>
-                Блок 1
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 2
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 3
-            </FooterLink>
-        </FooterGroup>
-        <FooterGroup title={'Категория 3'}>
-            <FooterLink href={'#'}>
-                Блок 1
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 2
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 3
-            </FooterLink>
-        </FooterGroup>
-        <FooterGroup title={'Категория 4'}>
-            <FooterLink href={'#'}>
-                Блок 1
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 2
-            </FooterLink>
-            <FooterLink href={'#'}>
-                Блок 3
-            </FooterLink>
-        </FooterGroup>
-        </div>
+            </Footer>
 
-        </Row>
-        <div className="line">
-        <div className="line-in">
-                
-                </div>
-        </div>
-        <Row className={''}>
-            <div className="second">
-                <div className="second-p">
-                    <div className="second-p-inside">
-                        <p>
-                        Кыргызская Республика, 2022
-                        </p>
+            <div className='pad'></div>
+            <Footer device='mobile' size='large'>
+                <Row className="">
+                    <div className='row'>
+
+                        <FooterGroup title={'Категория 1'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 4
+                            </FooterLink>
+                        </FooterGroup>
+
+                        <FooterGroup title={'Категория 2'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                        </FooterGroup>
+                        <FooterGroup title={'Категория 3'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                        </FooterGroup>
+                        <FooterGroup title={'Категория 4'}>
+                            <FooterLink href={'#'}>
+                                Блок 1
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 2
+                            </FooterLink>
+                            <FooterLink href={'#'}>
+                                Блок 3
+                            </FooterLink>
+                        </FooterGroup>
+                    </div>
+
+                </Row>
+                <div className="line">
+                    <div className="line-in">
 
                     </div>
                 </div>
-                <div className="second-icons">
-                    <div className="second-icons-inside">
-                        <FooterLink href={''}>
-                            <img src={facebook} alt="" />
-                        </FooterLink>
-                        <FooterLink href={''}>
-                            <img src={instagram} alt="" />
-                        </FooterLink>
-                        <FooterLink href={''}>
-                            <img src={vk} alt="" />
-                        </FooterLink>
-                        <FooterLink href={''}>
-                            <img src={vimeo} alt="" />
-                        </FooterLink>
-                        <FooterLink href={''}>
-                            <img src={youtube} alt="" />
-                        </FooterLink>
-                    </div>
-                </div>
-            </div>
-        </Row> 
 
-    </Footer>
-    </>
-    
-  )
+                    <div className="second">
+                        <div className="second-p">
+                            <div className="second-p-inside">
+                                <p>
+                                    Кыргызская Республика, 2022
+                                </p>
+
+                            </div>
+                        </div>
+                        <div className="second-icons">
+                            <div className="second-icons-inside">
+                                <FooterLink href={''}>
+                                    <img src={facebook} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={instagram} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={vk} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={vimeo} alt="" />
+                                </FooterLink>
+                                <FooterLink href={''}>
+                                    <img src={youtube} alt="" />
+                                </FooterLink>
+                            </div>
+                        </div>
+                    </div>
+
+            </Footer>
+        </>
+
+    )
 }
