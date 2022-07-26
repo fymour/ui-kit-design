@@ -3,20 +3,26 @@ a{
 }
 
 .menu{
-    background-color: #18569E;
+    background-color: #fff;
     width: 25%;
-    padding: 15px;
+    padding: 24px;
     height: fit-content;
 }
 
-.menu div{
-    color: #ECF0FF;
-    padding: 15px;
-    border-bottom: 2px solid #ECF0FF;
+.section{
+    color: #101828;
     font-weight: 400;
+    padding: 24px 0;
+    border-top: 1px solid #E1E4EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.menu div:hover{
-    background: #ECF0FF;
-    color: #18569E;
+.show-menu{
+    padding: 0 16px;
+}
+
+.show-menu div{
+    padding: 24px 0;
 }
