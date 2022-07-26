@@ -7,6 +7,7 @@ interface ScrollAreaProps {}
 export const ScrollArea = ({}:ScrollAreaProps) => {
     return (
         <>
+        
         </>
     )
 }
