@@ -4,7 +4,7 @@ import "./tabs.scss";
 
 export interface ITab {
   id: string | number;
-  label?: string | number;
+  label?: string | number | React.ReactNode;
 }
 
 export interface ITabsProps {
