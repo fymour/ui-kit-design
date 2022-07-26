@@ -1,4 +1,4 @@
-.footer{
+.footer--medium{
     color: #fff;
     background-color: #002D6E;
    
@@ -7,22 +7,27 @@
 .pad{
     padding: 30px 0px;
 }
+
 .footer--small{
-    color: aliceblue;
+    color: #fff;
     background-color: #002D6E;
     max-width: 900px;
-    max-height: 324px;
+    // max-height: 324px;
 }
+
 .footer-ul{
     color: #fff;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-    padding-top: 40px;
+    margin-top: 40px;
     padding-left: 14px;
+    margin-left: 14px;
     border-left: 1px solid #FFFFFF1A;
-    
+}
+.footer-ul:first-child{
+    border: none;
 }
 
 .footer-li a{
@@ -37,20 +42,17 @@
     list-style: none;
     padding-top: 20px;
 }
-.row{
-    display: flex;
-    width: 80%;
-    justify-content: space-around;
-    // padding-right: 150px;
-}
+
 
 .footer-row{
     width: 100%;
-    display: flex;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 180px 180px 180px 180px;
+    padding-left: 40px;
 }
 .second{
     display: flex;
-    width: 90%;
     justify-content: center;
 }
 
@@ -67,7 +69,7 @@
 .second-p{
     display: flex;
     width: 60%;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 .second-p-inside{
     display: flex;
@@ -76,11 +78,50 @@
 }
 .second-icons{
     display: flex;
-    width: 50%;
+    width: 30%;
     justify-content: flex-end;
 }
 .second-icons-inside{
     display: flex;
     width: 60%;
     justify-content: space-around;
+}
+.footer--mobile--large{
+    color: #fff;
+    background-color: #002D6E;
+    max-width: 375px;
+    max-height: 556px;
+
+    .row{ 
+        display: grid;
+        grid-template-columns: 150px 150px
+    }
+    .footer-ul {
+        border: none;
+    }
+    .second{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 1px;
+
+    }
+    .second-p{
+        display: flex;
+        width: 88%;
+        justify-content: flex-start;
+    }
+    .footer-row{
+        width: 100%;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 180px 180px 180px 180px;
+        padding-left: 1px;
+    }
+    .second-icons{
+        display: flex;
+        width: 90%;
+        justify-content: flex-start;
+    }
 }
