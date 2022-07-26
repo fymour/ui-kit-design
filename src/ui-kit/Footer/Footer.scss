@@ -1,16 +1,28 @@
 .footer{
-   color: #fff;
+    color: #fff;
     background-color: #002D6E;
+   
     
-    
+}
+.pad{
+    padding: 30px 0px;
+}
+.footer--small{
+    color: aliceblue;
+    background-color: #002D6E;
+    max-width: 900px;
+    max-height: 324px;
 }
 .footer-ul{
     color: #fff;
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 20px;
     padding-top: 40px;
+    padding-left: 14px;
+    border-left: 1px solid #FFFFFF1A;
+    
 }
 
 .footer-li a{
@@ -40,8 +52,17 @@
     display: flex;
     width: 90%;
     justify-content: center;
-    border-top: 1px solid;
-    
+}
+
+.line{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.line-in{
+    border-bottom: 1px solid #FFFFFF1A;
+    display: flex;
+    width: 90%;
 }
 .second-p{
     display: flex;

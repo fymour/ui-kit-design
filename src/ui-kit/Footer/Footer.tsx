@@ -1,6 +1,4 @@
 import React from 'react'
-import { FooterGroup } from './FooterGroup'
-import { FooterLink } from './FooterLink'
 import './Footer.scss'
 
 
@@ -17,7 +15,8 @@ export const Footer = ({
     children
 }: FooterProps) => {
   return ( 
-    <div className={[`footer` ].join(" ")}>
+    <div className={
+      [`footer`, `footer--${size}`].join(" ")}>
         {children}
     </div>
   )
