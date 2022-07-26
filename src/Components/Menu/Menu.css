@@ -17,6 +17,7 @@ a{
     font-weight: 400;
     padding: 24px;
     border-top: 1px solid #E1E4EB;
+    border-bottom: 1px solid #E1E4EB;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,4 +29,8 @@ a{
 
 .show-menu div{
     padding: 24px 16px;
+}
+
+.icon-down{
+    transform: rotate(180deg);
 }
