@@ -3,20 +3,42 @@ a{
 }
 
 .menu{
-    background-color: #18569E;
+    background-color: #fff;
     width: 25%;
-    padding: 15px;
     height: fit-content;
 }
 
-.menu div{
-    color: #ECF0FF;
-    padding: 15px;
-    border-bottom: 2px solid #ECF0FF;
-    font-weight: 400;
+.title{
+    padding: 24px;
 }
 
-.menu div:hover{
-    background: #ECF0FF;
-    color: #18569E;
+.description{
+    font-weight: 500;
+}
+
+.version{
+    color: #8691A8;
+}
+
+.section{
+    color: #101828;
+    font-weight: 400;
+    padding: 24px;
+    border-top: 1px solid #E1E4EB;
+    border-bottom: 1px solid #E1E4EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show-menu{
+    padding: 0 16px;
+}
+
+.show-menu div{
+    padding: 24px 16px;
+}
+
+.icon-down{
+    transform: rotate(180deg);
 }
