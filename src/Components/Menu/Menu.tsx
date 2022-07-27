@@ -76,6 +76,7 @@ export default function Menu() {
           <Link to='/collapse'><div>Collapse</div></Link>
           <Link to='/footer'><div>Footer</div></Link>
           <Link to='/scrollarea'><div>ScrollArea</div></Link>
+          <Link to='/modal'><div>Modal</div></Link>
         </div>}
       </div>
       <div>

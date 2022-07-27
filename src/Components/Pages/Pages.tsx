@@ -15,6 +15,7 @@ import { GridsPaddingPage } from './GridsPaddingPage/GridsPaddingPage';
 import { IconsPage } from './IconsPage/IconsPage';
 import { LevelsInterfacePage } from './LevelsInterfacePage/LevelsInterfacePage';
 import { StructurePage } from './StructurePage/StructurePage';
+import ModalPage from './ModalPage';
 
 
 export default function Pages() {
@@ -36,6 +37,7 @@ export default function Pages() {
           <Route path="/scrollarea" element={<ScrollAreaPage/>}/> 
           <Route path="/tabs" element={<TabsPage/>}/> 
           <Route path="/footer" element={<FooterPage/>}/> 
+          <Route path="/modal" element={<ModalPage/>}/> 
 
         </Routes>
     </div>
