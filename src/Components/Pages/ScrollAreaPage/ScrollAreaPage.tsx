@@ -11,7 +11,8 @@ const ScrollAreaPage = () => {
       </p>
       <div className='scroll'>
         <div className='scrollareah'>
-          <div className="scrollareahIn"></div>
+          <div className="scrollareahIn">
+          </div>
         </div>
         <div className='scrollareaOne'>
           <div className='scrollareaOneIn'></div>

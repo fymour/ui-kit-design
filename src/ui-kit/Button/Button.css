@@ -10,6 +10,12 @@
     display: inline-block;
     line-height: 1;
     border-radius: 4px !important;
+    display: flex;
+    align-items: center;
+  }
+
+  .button img {
+    padding: 0px 8px;
   }
   .button--primary {
     color: white;
