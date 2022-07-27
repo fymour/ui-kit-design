@@ -4,7 +4,11 @@ a{
 
 .pages{
     width: 70%;
-    padding: 30px;
+    padding: 30px 60px;
+}
+
+.pages-description{
+    margin-top: 18%;
 }
 
 h3{

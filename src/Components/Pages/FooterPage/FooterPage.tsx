@@ -13,6 +13,7 @@ import youtube from '../../../ui-kit/Assets/icons/youtube.svg'
 export const FooterPage = () => {
     return (
         <>
+        <div className='pages-description'>
             <Footer>
                 <Row className="row">
 
@@ -288,6 +289,7 @@ export const FooterPage = () => {
                     </div>
 
             </Footer>
+            </div>
         </>
 
     )
