@@ -53,9 +53,9 @@ export default function Menu() {
         </svg></div>}
         </div>
         {showSecond && <div className='show-menu'>
-          <Link to='/colors'><div>Цвета</div></Link>
+          <Link to='/colors'><div>Система цветов</div></Link>
           <Link to='/typography'><div>Типографика</div></Link>
-          <Link to='/gridsPadding'><div>Сетка и отступы</div></Link>
+          <Link to='/gridsPadding'><div>Модуль и сетка</div></Link>
           <Link to='/icons'><div>Иконки</div></Link>
           <Link to='/levelsInterface'><div>Уровни интерфейса</div></Link>
         </div>}
