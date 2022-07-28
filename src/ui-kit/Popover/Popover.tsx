@@ -1,4 +1,4 @@
-import React , { useState } from 'react'
+import React, { useState } from 'react'
 import './Popover.css'
 import { BiCaretUp } from "react-icons/bi";
 
@@ -6,18 +6,18 @@ import { BiCaretUp } from "react-icons/bi";
 type AllProps = Condition & PopoverProps;
 
 type Condition = {
-    disabled?: boolean, 
+    disabled?: boolean,
 }
 
 type PopoverProps = {
-    hoverStyle?: string,
+    top?: string,
 }
 
 export const Popover = ({
     disabled,
-
+    top,
     ...props
-}: AllProps, ) => {
+}: AllProps,) => {
 
     const [showPopover, setShowPopover] = useState<boolean>(false)
 
@@ -27,17 +27,17 @@ export const Popover = ({
 
     return (
         <div className='popover-menu'>
-           <button onClick={handleShowPopover}>Open Popover <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M18 8H10V0H8V8H0V10H8V18H10V10H18V8Z" fill="white"/>
-</svg>
- </button>
-           {showPopover && <div className='popover'>
-            <div className='popover-arrow'>
-            <BiCaretUp/>
-            </div>
-            <p className='popover-title'>Popover Title</p>
-            <p className='popover-description'>Graphical control element that hovers over its parent window and blocks any other interaction with until it is selected. It can contain various other graphical control element </p>
-        </div>}
+            <button onClick={handleShowPopover}>Open Popover <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 8H10V0H8V8H0V10H8V18H10V10H18V8Z" fill="white" />
+            </svg>
+            </button>
+            {showPopover && <div className='popover'>
+                <div className='popover-arrow'>
+                    <BiCaretUp />
+                </div>
+                <p className='popover-title'>Popover Title</p>
+                <p className='popover-description'>Graphical control element that hovers over its parent window and blocks any other interaction with until it is selected. It can contain various other graphical control element </p>
+            </div>}
         </div>
     )
 }

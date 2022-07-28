@@ -1,3 +1,8 @@
+.popover-menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 .popover-menu button{
     padding: 14px 24px;
     background-color: #18569e;
@@ -21,7 +26,7 @@
     box-shadow: 0px 1px 12px rgba(106, 122, 152, 0.12);
     border-radius: 4px;
     padding: 16px 24px;
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 .popover-title{
