@@ -78,6 +78,7 @@ export default function Menu() {
           <Link to='/footer'><div>Footer</div></Link>
           <Link to='/scrollarea'><div>ScrollArea</div></Link>
           <Link to='/modal'><div>Modal</div></Link>
+          <Link to='/popover'><div>Popover</div></Link>
         </div>}
       </div>
       <div>
