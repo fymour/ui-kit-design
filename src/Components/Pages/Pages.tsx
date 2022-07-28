@@ -17,6 +17,7 @@ import { LevelsInterfacePage } from './LevelsInterfacePage/LevelsInterfacePage';
 import { StructurePage } from './StructurePage/StructurePage';
 import { CheckboxPage } from './CheckboxPage/CheckboxPage';
 import ModalPage from './ModalPage';
+import { PopoverPage } from './PopoverPage/PopoverPage';
 
 
 
@@ -41,6 +42,7 @@ export default function Pages() {
           <Route path="/checkbox" element={<CheckboxPage/>}/> 
           <Route path="/footer" element={<FooterPage/>}/> 
           <Route path="/modal" element={<ModalPage/>}/> 
+          <Route path="/popover" element={<PopoverPage/>}/> 
 
         </Routes>
     </div>

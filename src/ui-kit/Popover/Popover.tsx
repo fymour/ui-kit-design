@@ -1,5 +1,7 @@
 import React , { useState } from 'react'
 import './Popover.css'
+import { BiCaretUp } from "react-icons/bi";
+
 
 type AllProps = Condition & PopoverProps;
 
@@ -12,7 +14,8 @@ type PopoverProps = {
 }
 
 export const Popover = ({
-    hoverStyle,
+    disabled,
+
     ...props
 }: AllProps, ) => {
 
@@ -29,6 +32,9 @@ export const Popover = ({
 </svg>
  </button>
            {showPopover && <div className='popover'>
+            <div className='popover-arrow'>
+            <BiCaretUp/>
+            </div>
             <p className='popover-title'>Popover Title</p>
             <p className='popover-description'>Graphical control element that hovers over its parent window and blocks any other interaction with until it is selected. It can contain various other graphical control element </p>
         </div>}

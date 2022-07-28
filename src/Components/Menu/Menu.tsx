@@ -77,11 +77,8 @@ export default function Menu() {
           <Link to='/collapse'><div>Collapse</div></Link>
           <Link to='/footer'><div>Footer</div></Link>
           <Link to='/scrollarea'><div>ScrollArea</div></Link>
-<<<<<<< HEAD
-          <Link to='/popover'><div>Popover</div></Link>
-=======
           <Link to='/modal'><div>Modal</div></Link>
->>>>>>> 2f217d462fe658b838d318c110bd9eaffb4bab88
+          <Link to='/popover'><div>Popover</div></Link>
         </div>}
       </div>
       <div>
