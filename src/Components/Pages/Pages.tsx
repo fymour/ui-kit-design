@@ -14,7 +14,7 @@ import { TypographyPage } from './TypographyPage/TypographyPage';
 import { GridsPaddingPage } from './GridsPaddingPage/GridsPaddingPage';
 import { IconsPage } from './IconsPage/IconsPage';
 import { LevelsInterfacePage } from './LevelsInterfacePage/LevelsInterfacePage';
-import { StructurePage } from './StructurePage/StructurePage';
+import { AboutSystem } from './AboutSystemPage/AboutSystem';
 import { CheckboxPage } from './CheckboxPage/CheckboxPage';
 import ModalPage from './ModalPage';
 import { PopoverPage } from './PopoverPage/PopoverPage';
@@ -26,7 +26,7 @@ export default function Pages() {
     <div className='pages'>
         <Routes>
           <Route path="/" element={<Introduction/>}/>
-          <Route path="/structure" element={<StructurePage/>}/>
+          <Route path="/about" element={<AboutSystem/>}/>
           <Route path="/colors" element={<ColorPage/>}/>
           <Route path="/typography" element={<TypographyPage/>}/>
           <Route path="/gridsPadding" element={<GridsPaddingPage/>}/>

@@ -9,7 +9,7 @@ export const CheckboxPage: React.FC = () => {
   
   return (
     <div className='CheckboxPage'>
-        {/* <div className="header-checkbox">
+        <div className="header-checkbox">
             <div className="left">
 
             </div>
@@ -46,7 +46,7 @@ export const CheckboxPage: React.FC = () => {
                 onChange={handleChangeCheckedBox}/>
             </div>
             <div className="second">
-                <h2></h2>
+                <h2>S</h2>
                 <p>Selected</p>
                 <Checkbox 
                 id={'1'} 
@@ -72,7 +72,7 @@ export const CheckboxPage: React.FC = () => {
             <div className="third">
 
             </div>
-        </div> */}
+        </div>
         <Checkbox 
         id={'1'} 
         isChecked={checkedBox}

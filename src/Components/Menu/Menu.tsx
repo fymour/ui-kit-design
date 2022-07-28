@@ -40,7 +40,7 @@ export default function Menu() {
         </svg></div>}
         </div>
         {showFirst && <div className='show-menu'>
-          <Link to='/structure'><div>Структура</div></Link>
+          <Link to='/about'><div>Как начать работу с дизайн-системой</div></Link>
         </div>}
       </div>
       <div>
