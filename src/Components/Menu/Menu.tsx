@@ -72,11 +72,16 @@ export default function Menu() {
         {showThird && <div className='show-menu'>
           <Link to='/button'><div>Button</div></Link>
           <Link to='/input'><div>Input</div></Link>
+          <Link to='/checkbox'><div>Checkbox</div></Link>
           <Link to='/tabs'><div>Tabs</div></Link>
           <Link to='/collapse'><div>Collapse</div></Link>
           <Link to='/footer'><div>Footer</div></Link>
           <Link to='/scrollarea'><div>ScrollArea</div></Link>
+<<<<<<< HEAD
           <Link to='/popover'><div>Popover</div></Link>
+=======
+          <Link to='/modal'><div>Modal</div></Link>
+>>>>>>> 2f217d462fe658b838d318c110bd9eaffb4bab88
         </div>}
       </div>
       <div>

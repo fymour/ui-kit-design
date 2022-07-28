@@ -29,10 +29,8 @@ export const Button = ({
     children,
     ...props
 }: ButtonProps) => {
-    //   const mode = primary ? 'button--primary' : 'button--secondary';
 
-   
-
+      
     if(hover){
       var hoverStyle = 'hover'
     }
@@ -47,15 +45,18 @@ export const Button = ({
       activeStyle = ''
     }
 
-
-    // const aidar= 'aidar'
     
     return (
     <button
       type="button"
       disabled={disabled}
       className={
-        ['button', `button--${size}`, `button--${variant}`, `button--${disableStyle}-${variant}`, `button--${hoverStyle}-${variant}`, `button--${activeStyle}-${variant}`].join(' ')}
+        ['button', 
+        `button--${size}`, 
+        `button--${variant}`, 
+        `button--${disableStyle}-${variant}`, 
+        `button--${hoverStyle}-${variant}`, 
+        `button--${activeStyle}-${variant}`].join(' ')}
       {...props}
     >
       {children}
