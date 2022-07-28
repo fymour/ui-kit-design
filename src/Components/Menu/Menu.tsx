@@ -40,7 +40,7 @@ export default function Menu() {
         </svg></div>}
         </div>
         {showFirst && <div className='show-menu'>
-          <Link to='/structure'><div>Структура</div></Link>
+          <Link to='/about'><div>Как начать работу с дизайн-системой</div></Link>
         </div>}
       </div>
       <div>
@@ -78,6 +78,7 @@ export default function Menu() {
           <Link to='/footer'><div>Footer</div></Link>
           <Link to='/scrollarea'><div>ScrollArea</div></Link>
           <Link to='/modal'><div>Modal</div></Link>
+          <Link to='/popover'><div>Popover</div></Link>
         </div>}
       </div>
       <div>
