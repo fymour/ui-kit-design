@@ -37,3 +37,60 @@
 .pro-title{
     padding-top: 40px;
 }
+.pro-title span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.pro-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.lib-title{
+    padding-top: 64px;
+    padding-bottom: 24px;
+}
+.lib-title span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.lib-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.link-title{
+    padding-top: 80px;
+}
+.link-title span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.link-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.image-title{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.plugin{
+    width: 264px;
+    height: 379px;
+    padding-right: 34px;
+}
+.general{
+    position: relative;
+    right: 306px;
+    top: 186px;
+    width: 349px;
+    height: 223px;
+}
