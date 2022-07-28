@@ -1,0 +1,27 @@
+
+.color-page{
+    margin-top: 188px;
+}
+.color-page img{
+    margin-left: -15px;
+}
+.color-page .color-img{
+    margin-left: -25px;
+}
+.color-page h2{
+    font-size: 40px;
+}
+.color-paragraph{
+    font-weight: 700;
+    font-size: 18px;
+}
+.color-row{
+    display: flex;
+    justify-content: space-between;
+}
+.color-card{
+    width: 30%;
+}
+.color-card-title{
+    font-weight: 500;
+}
