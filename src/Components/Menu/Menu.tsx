@@ -23,6 +23,7 @@ export default function Menu() {
   }
   return (
     <div className='menu'>
+      <div className='menu-all'>
       <div className='title-menu'>
         <Link to='/'> <img src={img} alt="" /> </Link>
         <p className='description-menu'>Дизайн стандарт для сайтов,
@@ -30,6 +31,7 @@ export default function Menu() {
         </p>
         <p className='version'>Версия 1.0</p>
       </div>
+      <div className='sidebar'>
       <div>
         <div className='section' onClick={handleShowFirst}>О Дизайн-системе
         {!showFirst && <div><svg width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -94,6 +96,10 @@ export default function Menu() {
           <div>Изменения</div>
         </div>}
       </div>
+      </div>
+      
+      
+      
       {/* <Link to="/"><div>Введение</div></Link>
       <Link to="/glossary"><div>Глоссарий</div></Link>
       <Link to="/button"><div>Button</div></Link>
@@ -102,6 +108,7 @@ export default function Menu() {
       <Link to="/collapse"><div>Collapse</div></Link>
       <Link to="/footer"><div>Footer</div></Link>
       <Link to="/scrollArea"><div>ScrollArea</div></Link> */}
+    </div>
     </div>
   )
 }

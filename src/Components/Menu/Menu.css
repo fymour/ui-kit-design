@@ -5,8 +5,33 @@ a{
 .menu{
     background-color: #fff;
     width: 25%;
-    height: fit-content;
+    height: 100vh;
+    position: fixed;
 }
+
+.sidebar {
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    border-radius: 22px;
+    background: transparent; 
+  }
+
+.sidebar::-webkit-scrollbar-thumb {
+    border-radius: 22px;
+    background: transparent; 
+    border: 2px solid transparent;
+
+  }
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    border-radius: 22px;
+    background: transparent; 
+  }
 
 .description-menu{ 
     font-weight: 500;
