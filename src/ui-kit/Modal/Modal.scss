@@ -5,6 +5,9 @@
 
   &Header {
     h2 {
+      color: black;
+      font-size: 32px;
+      font-weight: 500;
     }
 
     &__start {
@@ -23,6 +26,8 @@
 
   &Footer {
     margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
   }
 
   &Default {
@@ -30,17 +35,19 @@
     color: #fff;
 
     &__medium {
-      min-width: 760px;
-      max-width: 760px;
+      max-width: 600px;
+      max-height: 448px;
       width: 100%;
+      padding: 32px;
+      border-radius: 12px;
     }
 
     &CloseButton {
-      width: 20px;
-      height: 20px;
-
+      width: 18px;
+      height: 18px;
+      
       svg {
-        fill: rgb(66, 66, 66);
+        fill: #D3D8E6;
         transition: all 0.15s;
       }
 
