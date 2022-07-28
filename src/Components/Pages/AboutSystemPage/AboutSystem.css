@@ -1,0 +1,39 @@
+.heading-title{
+    width: 80%;
+    margin-top: 10%;
+    height: 30%;
+}
+.heading-title h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 64px;
+
+}
+
+.semi-title{
+    width: 100%;
+    padding-bottom: 24px;
+    height: 30%;
+    
+}
+.semi-title span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+.semi-text{
+    margin-top: 0;
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.semi-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}   
+.pro-title{
+    
+}
