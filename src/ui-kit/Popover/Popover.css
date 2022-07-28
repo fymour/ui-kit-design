@@ -1,6 +1,6 @@
 .popover-menu button{
     padding: 14px 24px;
-    background-color: #252541fb;
+    background-color: #18569e;
     color: #fff;
     border: none;
     display: flex;
@@ -21,7 +21,7 @@
     box-shadow: 0px 1px 12px rgba(106, 122, 152, 0.12);
     border-radius: 4px;
     padding: 16px 24px;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 .popover-title{
@@ -36,4 +36,12 @@
     font-size: 14px;
     margin-bottom: 0;
     line-height: 20px;
+}
+
+.popover-arrow{
+    position: absolute;
+    top: -15px;
+    right: 45%;
+    color: #fff;
+    font-size: 25px;
 }

@@ -1,0 +1,96 @@
+.heading-title{
+    width: 80%;
+    margin-top: 10%;
+    height: 30%;
+}
+.heading-title h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 64px;
+
+}
+
+.semi-title{
+    width: 100%;
+    padding-bottom: 24px;
+    height: 30%;
+    
+}
+.semi-title span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+.semi-text{
+    margin-top: 0;
+    padding-top: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.semi-title p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}   
+.pro-title{
+    padding-top: 40px;
+}
+.pro-title span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.pro-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.lib-title{
+    padding-top: 64px;
+    padding-bottom: 24px;
+}
+.lib-title span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.lib-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.link-title{
+    padding-top: 80px;
+}
+.link-title span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.link-title p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.image-title{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.plugin{
+    width: 264px;
+    height: 379px;
+    padding-right: 34px;
+}
+.general{
+    position: relative;
+    right: 306px;
+    top: 186px;
+    width: 349px;
+    height: 223px;
+}
