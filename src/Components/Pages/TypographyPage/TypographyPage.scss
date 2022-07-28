@@ -1,0 +1,116 @@
+.typography-page{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+.typography{
+    p{
+        font-family: 'Rubik';
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 64px;
+    }
+}
+.block-one{
+    display: flex;
+    width: 100%;
+    .block-one-inside{
+
+        p{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+    .block-one-inside-second{
+        display: flex;
+        height: 80%;
+        justify-content: space-around;
+        
+        .left-block{
+            display: flex;
+            width: 30%;
+            height: 20%;
+            justify-content: flex-start;
+            flex-direction: column;
+            
+        }
+        .center-block{
+            display: flex;
+            width: 30%;
+            justify-content: flex-start;
+            
+            flex-direction: column;
+            
+        }
+        .right-block{
+            display: flex;
+            width: 30%;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    }
+}
+.block-two{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    .title{
+        font-size: 24px;
+        // font-weight: 700;
+        line-height: 32px;
+    }
+}
+.block-two-inside{
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+}
+.zagolovki{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+    
+    .h1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+    .h2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+    .h3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+    .h3-large{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+    .h4{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+    .h4-large{
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        ;
+    }
+}
