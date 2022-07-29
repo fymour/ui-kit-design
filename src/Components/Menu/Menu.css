@@ -22,20 +22,20 @@ a{
     padding-left: 10px;
 }
 
+.sidebar::-webkit-scrollbar {
+    width: 0px;
+  }
+
 .sidebar::-webkit-scrollbar-track {
-    border-radius: 22px;
     background: transparent; 
   }
 
 .sidebar::-webkit-scrollbar-thumb {
-    border-radius: 22px;
     background: transparent; 
     border: 2px solid transparent;
-
   }
 
 .sidebar::-webkit-scrollbar-thumb:hover {
-    border-radius: 22px;
     background: transparent; 
   }
 
