@@ -299,3 +299,71 @@
     }
 
 }
+.block-four{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    .block-strings{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .one-strings{
+            display: flex;
+            width: 90%;
+            justify-content: space-around;
+            
+         
+            .text{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .two-strings{
+            display: flex;
+            width: 90%;
+            justify-content: space-around;
+            
+         
+            .text{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .three-strings{
+            display: flex;
+            width: 90%;
+            justify-content: space-around;
+            
+         
+            .text{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .four-strings{
+            display: flex;
+            width: 90%;
+            justify-content: space-around;
+            
+         
+            .text{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        .five-strings{
+            display: flex;
+            width: 90%;
+            justify-content: space-around;
+            
+         
+            .text{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
