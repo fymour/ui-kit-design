@@ -16,6 +16,12 @@ a{
     overflow: auto;
 }
 
+.version {
+    position: fixed;
+    bottom: 0px;
+    padding-left: 10px;
+}
+
 .sidebar::-webkit-scrollbar-track {
     border-radius: 22px;
     background: transparent; 

@@ -33,7 +33,6 @@ export default function Menu() {
         <p className='description-menu'>Дизайн стандарт для сайтов,
           порталов и информационных систем правоохранительных органов
         </p>
-        <p className='version'>Версия 1.0</p>
       </div>
       <div className='sidebar'>
       <div>
@@ -107,7 +106,9 @@ export default function Menu() {
           <div className='show-menu-link'>Изменения</div>
         </div>}
       </div>
+
       </div>
+      <p className='version'>Версия 1.0</p>
       
       
       
