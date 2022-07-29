@@ -5,8 +5,33 @@ a{
 .menu{
     background-color: #fff;
     width: 25%;
-    height: fit-content;
+    height: 100vh;
+    position: fixed;
 }
+
+.sidebar {
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    border-radius: 22px;
+    background: transparent; 
+  }
+
+.sidebar::-webkit-scrollbar-thumb {
+    border-radius: 22px;
+    background: transparent; 
+    border: 2px solid transparent;
+
+  }
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    border-radius: 22px;
+    background: transparent; 
+  }
 
 .description-menu{ 
     font-weight: 500;
@@ -25,8 +50,8 @@ a{
 
 .section{
     color: #101828;
-    font-weight: 400;
-    padding: 24px;
+    font-weight: 500;
+    padding: 24px 20px;
     border-top: 1px solid #E1E4EB;
     border-bottom: 1px solid #E1E4EB;
     display: flex;
@@ -34,14 +59,25 @@ a{
     align-items: center;
 }
 
-.show-menu{
-    padding: 0 16px;
-}
-
-.show-menu div{
-    padding: 24px 16px;
+.show-menu-link{
+    padding: 24px 28px;
+    border-bottom: 1px solid #E1E4EB;
 }
 
 .icon-down{
     transform: rotate(180deg);
+}
+
+.typography-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.typography-menu a{
+    padding: 20px 40px;
+    border-bottom: 1px solid #E1E4EB;
+}
+
+.active:focus{
+    color: #18569E;
 }

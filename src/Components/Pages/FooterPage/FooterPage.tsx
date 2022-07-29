@@ -13,9 +13,13 @@ import youtube from '../../../ui-kit/Assets/icons/youtube.svg'
 export const FooterPage = () => {
     return (
         <>
-        <div className='pages-description'>
-            <Footer>
-                <Row className="row">
+            <h1>Описание</h1>
+            <div className='pages-description'>
+            <p>Footer  — это нижняя часть страницы. Footer имеет вторичную навигацию с ссылками
+                на метаинформацию, а также помогает пользователям найти информацию об авторских правах, лицензировании и другую необходимую информацию.
+            </p>
+                <Footer>
+                    <Row className="row">
 
                         <FooterGroup title={'Категория 1'}>
                             <FooterLink href={'#'}>
@@ -66,13 +70,13 @@ export const FooterPage = () => {
                             </FooterLink>
                         </FooterGroup>
 
-                </Row>
+                    </Row>
 
-                <div className="line">
-                    <div className="line-in">
+                    <div className="line">
+                        <div className="line-in">
 
+                        </div>
                     </div>
-                </div>
 
                     <div className="second">
                         <div className="second-p">
@@ -104,11 +108,11 @@ export const FooterPage = () => {
                         </div>
                     </div>
 
-            </Footer>
+                </Footer>
 
-            <div className='pad'></div>
-            <Footer size='small'>
-                <Row className="row">
+                <div className='pad'></div>
+                <Footer size='small'>
+                    <Row className="row">
 
                         <FooterGroup title={'Категория 1'}>
                             <FooterLink href={'#'}>
@@ -158,12 +162,12 @@ export const FooterPage = () => {
                             </FooterLink>
                         </FooterGroup>
 
-                </Row>
-                <div className="line">
-                    <div className="line-in">
+                    </Row>
+                    <div className="line">
+                        <div className="line-in">
 
+                        </div>
                     </div>
-                </div>
                     <div className="second">
                         <div className="second-p">
                             <div className="second-p-inside">
@@ -194,69 +198,69 @@ export const FooterPage = () => {
                         </div>
                     </div>
 
-            </Footer>
+                </Footer>
 
-            <div className='pad'></div>
-            <Footer device='mobile' size='large'>
-                <Row className="">
-                    <div className='row'>
+                <div className='pad'></div>
+                <Footer device='mobile' size='large'>
+                    <Row className="">
+                        <div className='row'>
 
-                        <FooterGroup title={'Категория 1'}>
-                            <FooterLink href={'#'}>
-                                Блок 1
-                            </FooterLink>
-                            <FooterLink href={'#'}>
-                                Блок 2
-                            </FooterLink>
-                            <FooterLink href={'#'}>
-                                Блок 3
-                            </FooterLink>
-                            <FooterLink href={'#'}>
-                                Блок 4
-                            </FooterLink>
-                        </FooterGroup>
+                            <FooterGroup title={'Категория 1'}>
+                                <FooterLink href={'#'}>
+                                    Блок 1
+                                </FooterLink>
+                                <FooterLink href={'#'}>
+                                    Блок 2
+                                </FooterLink>
+                                <FooterLink href={'#'}>
+                                    Блок 3
+                                </FooterLink>
+                                <FooterLink href={'#'}>
+                                    Блок 4
+                                </FooterLink>
+                            </FooterGroup>
 
-                        <FooterGroup title={'Категория 2'}>
-                            <FooterLink href={'#'}>
-                                Блок 1
-                            </FooterLink>
-                            <FooterLink href={'#'}>
-                                Блок 2
-                            </FooterLink>
-                            <FooterLink href={'#'}>
-                                Блок 3
-                            </FooterLink>
-                        </FooterGroup>
-                        <FooterGroup title={'Категория 3'}>
-                            <FooterLink href={'#'}>
-                                Блок 1
-                            </FooterLink>
-                            <FooterLink href={'#'}>
-                                Блок 2
-                            </FooterLink>
-                            <FooterLink href={'#'}>
-                                Блок 3
-                            </FooterLink>
-                        </FooterGroup>
-                        <FooterGroup title={'Категория 4'}>
-                            <FooterLink href={'#'}>
-                                Блок 1
-                            </FooterLink>
-                            <FooterLink href={'#'}>
-                                Блок 2
-                            </FooterLink>
-                            <FooterLink href={'#'}>
-                                Блок 3
-                            </FooterLink>
-                        </FooterGroup>
+                            <FooterGroup title={'Категория 2'}>
+                                <FooterLink href={'#'}>
+                                    Блок 1
+                                </FooterLink>
+                                <FooterLink href={'#'}>
+                                    Блок 2
+                                </FooterLink>
+                                <FooterLink href={'#'}>
+                                    Блок 3
+                                </FooterLink>
+                            </FooterGroup>
+                            <FooterGroup title={'Категория 3'}>
+                                <FooterLink href={'#'}>
+                                    Блок 1
+                                </FooterLink>
+                                <FooterLink href={'#'}>
+                                    Блок 2
+                                </FooterLink>
+                                <FooterLink href={'#'}>
+                                    Блок 3
+                                </FooterLink>
+                            </FooterGroup>
+                            <FooterGroup title={'Категория 4'}>
+                                <FooterLink href={'#'}>
+                                    Блок 1
+                                </FooterLink>
+                                <FooterLink href={'#'}>
+                                    Блок 2
+                                </FooterLink>
+                                <FooterLink href={'#'}>
+                                    Блок 3
+                                </FooterLink>
+                            </FooterGroup>
+                        </div>
+
+                    </Row>
+                    <div className="line">
+                        <div className="line-in">
+
+                        </div>
                     </div>
-
-                </Row>
-                <div className="line">
-                    <div className="line-in">
-
-                    </div>
-                </div>
 
                     <div className="second">
                         <div className="second-p">
@@ -288,7 +292,7 @@ export const FooterPage = () => {
                         </div>
                     </div>
 
-            </Footer>
+                </Footer>
             </div>
         </>
 

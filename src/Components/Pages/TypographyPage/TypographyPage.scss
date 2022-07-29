@@ -1,0 +1,303 @@
+.typography-page{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+.typography{
+    p{
+        font-family: 'Rubik';
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 64px;
+    }
+}
+.block-one{
+    display: flex;
+    width: 100%;
+    .block-one-inside{
+        .m0{
+            margin-top: 0;
+        }
+        p{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+    .block-one-inside-second{
+        display: flex;
+        height: 80%;
+        justify-content: space-around;
+        
+        .left-block{
+            display: flex;
+            width: 30%;
+            height: 20%;
+            justify-content: flex-start;
+            flex-direction: column;
+            
+        }
+        .center-block{
+            display: flex;
+            width: 30%;
+            justify-content: flex-start;
+            
+            flex-direction: column;
+            
+        }
+        .right-block{
+            display: flex;
+            width: 30%;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+        }
+    }
+}
+.block-two{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    .title{
+        font-size: 24px;
+        // font-weight: 700;
+        line-height: 32px;
+    }
+}
+.block-two-inside{
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+}
+.zagolovki{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+    
+    .h1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+    .h2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+    .h3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+    .h3-large{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+    .h4{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ;
+    }
+    .h4-large{
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        ;
+    }
+}
+.block-three{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    .row-one{
+        display: flex;
+        width: 48%;
+        justify-content: space-around;
+
+        .small{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            color: #6B7A99;
+        }
+        .large{
+            width: 242px;
+            height: 72px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    .row-two{
+        display: flex;
+        width: 48%;
+        justify-content: space-around;
+        
+        .small{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            color: #6B7A99;
+        }
+        .large{
+            width: 242px;
+            height: 72px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+        }
+    }
+    .row-three{
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+
+        .small{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            color: #6B7A99;
+        }
+        .x-large_1{
+            width: 242px;
+            height: 112px;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        .x-large_2{
+            width: 242px;
+            height: 112px;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+    .row-four{
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+
+        .small{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            color: #6B7A99;
+        }
+        .caption-large{
+            width: 242px;
+            height: 72px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .caption-large-2{
+            width: 242px;
+            height: 72px;
+            font-weight: 500;
+            font-size: 19px;
+            line-height: 24px;
+        }
+    }
+    .row-five{
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+
+        .small{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            color: #6B7A99;
+        }
+        .caption-medium-1{
+            width: 242px;
+            height: 72px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .caption-medium-2{
+            width: 242px;
+            height: 72px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        
+    }
+    .row-six{
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+
+        .small{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            color: #6B7A99;
+        }
+        .caption-small-1{
+            width: 242px;
+            height: 72px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .caption-small-2{
+            width: 242px;
+            height: 60px;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        
+    }
+    .row-seven{
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+
+        .small{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            color: #6B7A99;
+        }
+        .caption-x-small-1{
+            width: 242px;
+            height: 36px;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .caption-x-small-2{
+            width: 242px;
+            height: 36px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+        }
+
+    }
+
+}
