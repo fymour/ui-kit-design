@@ -57,7 +57,7 @@ export const TypographyPage = () => {
           </div>
         </div>
       </div>
-      <div className="block-two">
+      <div className="block-two" id='typography-title'>
         <p className='title'>
           Заголовки
         </p>
@@ -122,7 +122,7 @@ export const TypographyPage = () => {
         </div>
 
       </div>
-      <div className="block-three">
+      <div className="block-three" id='typography-text'>
         <h2>
           Наборный текст, подписи, подзаголовки
         </h2>
@@ -218,7 +218,7 @@ export const TypographyPage = () => {
           
         </div>
       </div>
-      <div className="block-four">
+      <div className="block-four" id='typography-length'>
         <h2>
           Длина строки
         </h2>

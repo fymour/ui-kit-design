@@ -8,6 +8,7 @@ export default function Menu() {
   const [showSecond, setShowSecond] = useState<boolean>(false)
   const [showThird, setShowThird] = useState<boolean>(false)
   const [showFourth, setShowFourth] = useState<boolean>(false)
+  const [showTypography, setShowTypography] = useState<boolean>(false)
 
   const handleShowFirst = () => {
     setShowFirst(!showFirst)
@@ -20,6 +21,9 @@ export default function Menu() {
   }
   const handleShowFourth = () => {
     setShowFourth(!showFourth)
+  }
+  const handleShowTypography = () => {
+    setShowTypography(!showTypography)
   }
   return (
     <div className='menu'>
@@ -55,11 +59,18 @@ export default function Menu() {
         </svg></div>}
         </div>
         {showSecond && <div className='show-menu'>
-          <Link to='/colors'><div>Система цветов</div></Link>
-          <Link to='/typography'><div>Типографика</div></Link>
-          <Link to='/gridsPadding'><div>Модуль и сетка</div></Link>
-          <Link to='/icons'><div>Иконки</div></Link>
-          <Link to='/levelsInterface'><div>Уровни интерфейса</div></Link>
+          <Link to='/colors'><div className='show-menu-link'>Система цветов</div></Link>
+          <Link to='/typography' onClick={handleShowTypography}><div className='show-menu-link'>Типографика</div></Link>
+         {showTypography && <div className='typography-menu'>
+            <a href="#typography-title">Заголовки</a>
+            <a href="#typography-text">Наборный текст, подписи, подзаголовки</a>
+            <a href="#typography-length">Длина строки</a>
+            <a href="#">Иерархия</a>
+            <a href="#">Адаптивность </a>
+          </div>}
+          <Link to='/gridsPadding'><div className='show-menu-link'>Модуль и сетка</div></Link>
+          <Link to='/icons'><div className='show-menu-link'>Иконки</div></Link>
+          <Link to='/levelsInterface'><div className='show-menu-link'>Уровни интерфейса</div></Link>
         </div>}
       </div>
       <div>

@@ -43,7 +43,6 @@ export default function Pages() {
           <Route path="/footer" element={<FooterPage/>}/> 
           <Route path="/modal" element={<ModalPage/>}/> 
           <Route path="/popover" element={<PopoverPage/>}/> 
-
         </Routes>
     </div>
   )

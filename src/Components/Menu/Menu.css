@@ -59,14 +59,21 @@ a{
     align-items: center;
 }
 
-.show-menu{
-    padding: 0 16px;
-}
-
-.show-menu div{
+.show-menu-link{
     padding: 24px 16px;
+    border-bottom: 1px solid #E1E4EB;
 }
 
 .icon-down{
     transform: rotate(180deg);
+}
+
+.typography-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.typography-menu a{
+    padding: 20px 24px;
+    border-bottom: 1px solid #E1E4EB;
 }
