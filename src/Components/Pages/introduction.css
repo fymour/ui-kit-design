@@ -1,5 +1,8 @@
-h1{
-    color: #18569E;
+.pages-title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 64px;
+    margin-top: 10%;
 }
 
 .description ul{
