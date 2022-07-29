@@ -307,6 +307,7 @@
     .block-strings{
         display: flex;
         width: 100%;
+        border: 1px solid red;
         flex-direction: column;
         justify-content: flex-start;
 
@@ -319,17 +320,33 @@
             .text{
                 display: flex;
                 flex-direction: column;
+                
+                .text-second{
+                    p{
+                        display: flex;
+                        width: 30%;
+                       
+                    }
+                }
             }
+
         }
         .two-strings{
             display: flex;
-            width: 90%;
+            width: 69%;
             justify-content: space-around;
             
          
             .text{
                 display: flex;
                 flex-direction: column;
+
+                .text-second{
+                    p{
+                        display: flex;
+                        width: 55%; 
+                    }
+                }
             }
         }
         .three-strings{
@@ -341,28 +358,49 @@
             .text{
                 display: flex;
                 flex-direction: column;
+
+                .text-second{
+                    display: flex;
+                    p{
+                        display: flex;
+                        width: 50%;
+                    }
+                }
             }
         }
         .four-strings{
             display: flex;
-            width: 90%;
+            width: 68%;
             justify-content: space-around;
             
          
             .text{
                 display: flex;
                 flex-direction: column;
+
+                .text-second{
+                    p{
+
+                        
+                    }
+                }
             }
         }
         .five-strings{
             display: flex;
-            width: 90%;
+            width: 68%;
             justify-content: space-around;
             
          
             .text{
                 display: flex;
                 flex-direction: column;
+                .text-second{
+                    p{
+
+                       
+                    }
+                }
             }
         }
     }
