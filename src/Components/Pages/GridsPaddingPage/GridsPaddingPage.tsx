@@ -8,9 +8,9 @@ export const GridsPaddingPage = () => {
   return (
     <div>
       <div className='header-title'>
-        <h2>Модуль и сетка</h2>
+        <h1 className='pages-title'>Модуль и сетка</h1>
       </div>
-      <div>
+      <div className="pages-description">
         <div className='wide-container'>
           <h3>Сетка</h3>
           <p>В интерфейсах Вышки мы используем гибкую сетку — ширина столбцов будет постоянно увеличиваться/уменьшаться в размере при изменении области просмотра.</p>

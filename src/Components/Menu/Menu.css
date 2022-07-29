@@ -50,8 +50,8 @@ a{
 
 .section{
     color: #101828;
-    font-weight: 400;
-    padding: 24px;
+    font-weight: 500;
+    padding: 24px 20px;
     border-top: 1px solid #E1E4EB;
     border-bottom: 1px solid #E1E4EB;
     display: flex;
@@ -60,7 +60,7 @@ a{
 }
 
 .show-menu-link{
-    padding: 24px 16px;
+    padding: 24px 28px;
     border-bottom: 1px solid #E1E4EB;
 }
 
@@ -74,6 +74,10 @@ a{
 }
 
 .typography-menu a{
-    padding: 20px 24px;
+    padding: 20px 40px;
     border-bottom: 1px solid #E1E4EB;
+}
+
+.active:focus{
+    color: #18569E;
 }

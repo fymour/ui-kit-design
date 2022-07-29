@@ -9,7 +9,7 @@ import color5 from '../../Assets/image/color1.png'
 export const ColorPage = () => {
   return (
     <div className='color-page'>
-      <h2>Система цветов</h2>
+      <h1 className='pages-title'>Система цветов</h1>
       <div className="pages-description">
         <p className='color-paragraph'>Для синхронизации цветов в дизайне и разработке, используются дизайн-токены tokents / colors.
 Следуйте инструкции:</p>

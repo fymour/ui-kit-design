@@ -9,13 +9,13 @@ export const TypographyPage = () => {
   return (
     <div className='typography-page'>
       <div className='typography'>
-        <p>
+        <h1 className='pages-title'>
           Типографика
-        </p>
+        </h1>
       </div>
-      <div className="block-one">
+      <div className="block-one pages-description">
         <div className="block-one-inside">
-          <p>
+          <p className='m0'>
             Для синхронизации шрифтов в дизайне и разработке, используются дизайн-токены tokents / fonts.
             Чтобы изменить стиль текста в дизайне, следуйте инструкции:
           </p>

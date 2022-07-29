@@ -16,7 +16,9 @@
     display: flex;
     width: 100%;
     .block-one-inside{
-
+        .m0{
+            margin-top: 0;
+        }
         p{
             font-weight: 700;
             font-size: 18px;
