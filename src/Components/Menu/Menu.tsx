@@ -46,7 +46,7 @@ export default function Menu() {
         </svg></div>}
         </div>
         {showFirst && <div className='show-menu'>
-          <Link to='/about'><div>Как начать работу с дизайн-системой</div></Link>
+          <Link to='/about'><div className='show-menu-link'>Как начать работу с дизайн-системой</div></Link>
         </div>}
       </div>
       <div>
@@ -83,15 +83,15 @@ export default function Menu() {
         </svg></div>}
         </div>
         {showThird && <div className='show-menu'>
-          <Link to='/button'><div>Button</div></Link>
-          <Link to='/input'><div>Input</div></Link>
-          <Link to='/checkbox'><div>Checkbox</div></Link>
-          <Link to='/tabs'><div>Tabs</div></Link>
-          <Link to='/collapse'><div>Collapse</div></Link>
-          <Link to='/footer'><div>Footer</div></Link>
-          <Link to='/scrollarea'><div>ScrollArea</div></Link>
-          <Link to='/modal'><div>Modal</div></Link>
-          <Link to='/popover'><div>Popover</div></Link>
+          <Link to='/button'><div className='show-menu-link'>Button</div></Link>
+          <Link to='/input'><div className='show-menu-link'>Input</div></Link>
+          <Link to='/checkbox'><div className='show-menu-link'>Checkbox</div></Link>
+          <Link to='/tabs'><div className='show-menu-link'>Tabs</div></Link>
+          <Link to='/collapse'><div className='show-menu-link'>Collapse</div></Link>
+          <Link to='/footer'><div className='show-menu-link'>Footer</div></Link>
+          <Link to='/scrollarea'><div className='show-menu-link'>ScrollArea</div></Link>
+          <Link to='/modal'><div className='show-menu-link'>Modal</div></Link>
+          <Link to='/popover'><div className='show-menu-link'>Popover</div></Link>
         </div>}
       </div>
       <div>
@@ -104,7 +104,7 @@ export default function Menu() {
         </svg></div>}
         </div>
         {showFourth && <div className='show-menu'>
-          <div>Изменения</div>
+          <div className='show-menu-link'>Изменения</div>
         </div>}
       </div>
       </div>
