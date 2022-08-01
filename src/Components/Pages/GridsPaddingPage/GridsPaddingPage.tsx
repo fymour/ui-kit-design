@@ -13,7 +13,7 @@ import texttitle from '../../Assets/image/texttitle1.png'
 
 export const GridsPaddingPage = () => {
   return (
-    <div>
+    <div className='content'>
       <div className='header-title'>
         <h1 className='pages-title'>Модуль и сетка</h1>
       </div>
