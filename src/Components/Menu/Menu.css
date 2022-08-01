@@ -5,31 +5,37 @@ a{
 .menu{
     background-color: #fff;
     width: 25%;
-    height: 100vh;
+    height: 60vh;
     position: fixed;
 }
 
 .sidebar {
     width: 25%;
-    height: 100vh;
+    height: 70vh;
     position: fixed;
     overflow: auto;
 }
 
+.version {
+    position: fixed;
+    bottom: 0px;
+    padding-left: 10px;
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 0px;
+  }
+
 .sidebar::-webkit-scrollbar-track {
-    border-radius: 22px;
     background: transparent; 
   }
 
 .sidebar::-webkit-scrollbar-thumb {
-    border-radius: 22px;
     background: transparent; 
     border: 2px solid transparent;
-
   }
 
 .sidebar::-webkit-scrollbar-thumb:hover {
-    border-radius: 22px;
     background: transparent; 
   }
 
@@ -59,6 +65,11 @@ a{
     align-items: center;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 .show-menu-link{
     padding: 24px 28px;
     border-bottom: 1px solid #E1E4EB;
@@ -74,7 +85,7 @@ a{
 }
 
 .typography-menu a{
-    padding: 20px 40px;
+    padding: 20px 50px;
     border-bottom: 1px solid #E1E4EB;
 }
 

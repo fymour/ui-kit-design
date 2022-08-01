@@ -1,7 +1,14 @@
 import React from 'react'
 import './gridspaddingpage.css'
 import breakpoint from '../../Assets/image/breakpoint.png'
-import gridlayout from '../../Assets/image/gridlayout.png'
+import size from '../../Assets/image/size.png'
+import controlg from '../../Assets/image/conrolg.png'
+import desktop from '../../Assets/image/desktop.png'
+import gridsize1 from '../../Assets/image/gridsize1.png'
+import sizes from '../../Assets/image/sizes.png'
+import sendcard from '../../Assets/image/sendcard.png'
+import sendroutecard from '../../Assets/image/sendroute-card.png'
+import texttitle from '../../Assets/image/texttitle1.png'
 
 
 export const GridsPaddingPage = () => {
@@ -11,19 +18,53 @@ export const GridsPaddingPage = () => {
         <h1 className='pages-title'>Модуль и сетка</h1>
       </div>
       <div className="pages-description">
-        <div className='wide-container'>
-          <h3>Сетка</h3>
-          <p>В интерфейсах Вышки мы используем гибкую сетку — ширина столбцов будет постоянно увеличиваться/уменьшаться в размере при изменении области просмотра.</p>
-          <p>Межколоночное расстояние меняется в заивисмости от брейкпоинтов следующим образом:</p>
-          <img src={breakpoint} alt="" />
+        <div className='container'>
+          <div className='wide-container'>
+            <h3>Сетка</h3>
+            <p>В интерфейсах Вышки мы используем гибкую сетку — ширина столбцов будет постоянно увеличиваться/уменьшаться в размере при изменении области просмотра.</p>
+            <p>Межколоночное расстояние меняется в заивисмости от брейкпоинтов следующим образом:</p>
+            <img className='break-image' src={breakpoint} alt="" />
+          </div>
+          <div className='thin-container'>
+            <h3>Как пользоваться сеткой</h3>
+            <p>Мы подготовили набор базовых состояний сетки для различных разрешений экрана. Все они есть в панеле стилей библиотеки компонентов.</p>
+            <p>В некоторых интерфейсах ВШЭ возможно использование левого сайдбара. Для этого случая мы также подготовили сетку, где ширина сайдбара и ширина колонки выстраивается в зависимости от ширины экрана.</p>
+            <div className='turn-container'>
+              <p>Чтобы включить отображение сетки нажмите</p>
+              <img className='control-image' src={controlg} alt="" />
+            </div>
+            <img className='grid-image' src={size} alt="" />
+          </div>
+
         </div>
-        <div className='thin-container'>
-          <h3>Как пользоваться сеткой</h3>
-          <p>Мы подготовили набор базовых состояний сетки для различных разрешений экрана. Все они есть в панеле стилей библиотеки компонентов.</p>
-          <p>В некоторых интерфейсах ВШЭ возможно использование левого сайдбара. Для этого случая мы также подготовили сетку, где ширина сайдбара и ширина колонки выстраивается в зависимости от ширины экрана.</p>
-          <p>Чтобы включить отображение сетки нажмите</p>
-          <img src={gridlayout} alt="" />
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat repellat architecto nihil accusamus, ipsam, maxime veniam provident quas quod suscipit fugit error. Non excepturi id, autem sed nesciunt illo provident, voluptas nostrum vero inventore laboriosam voluptatem corrupti quo asperiores beatae magni explicabo sunt ipsam facilis saepe quidem molestias eaque iusto. Perferendis est ab quidem laborum dignissimos praesentium sit vitae. Autem reiciendis omnis facere aspernatur dolor ipsa cupiditate culpa voluptates harum laborum quis enim, velit exercitationem repellat provident nemo a vero! Harum, voluptas ullam. Quia maiores vitae ad nulla fugiat hic cupiditate aut temporibus esse laboriosam. Tenetur recusandae omnis earum, a laboriosam voluptate fuga quod, ea magni itaque sequi. Est ad qui nostrum voluptatum quidem iste dolore inventore officia id ea velit maiores reprehenderit consequuntur, ut, placeat tempore eveniet, dolores labore rem dolorum asperiores repudiandae numquam doloremque. Delectus ipsa dolorum perspiciatis deleniti corporis quaerat error repellendus nisi voluptate quae, modi asperiores, dolore cumque eaque perferendis sapiente velit magni. Quae laborum eveniet dolorem repellendus, hic nemo deserunt optio ad harum eos sunt officiis a commodi, consequatur, porro sit debitis ullam natus incidunt odit. Eligendi doloremque, sapiente, et amet sed asperiores adipisci hic, ex nesciunt odit commodi dicta ducimus quaerat qui accusamus tempore quia a dolorum quae quasi unde! Dignissimos error consequatur perspiciatis nesciunt deleniti inventore sequi numquam cum, quasi cupiditate? Sint ullam quis reprehenderit adipisci, est, odio excepturi esse sunt impedit, voluptas eos accusamus molestiae reiciendis quae! Unde ratione tenetur impedit, quod provident reprehenderit sint voluptatibus quisquam beatae inventore possimus consectetur dolor, earum dicta omnis? Eum assumenda accusantium nam accusamus repudiandae libero eveniet tenetur soluta praesentium quidem ut amet dolores aliquam, alias molestias omnis iste. Dolorem itaque sapiente, qui maxime, odio ipsum dolorum neque quisquam ducimus repellat assumenda delectus sed et dicta tempore debitis officiis voluptatem atque mollitia! Assumenda error consectetur commodi!</p>
+
+      </div>
+      <div className='desktop-container'>
+        <h3>Desktop Small</h3>
+        <img src={desktop} alt="" />
+      </div>
+      <div className='module-container'>
+        <h3>Модуль</h3>
+        <p>Минимальный модуль — 4 px. Это базовая единица измерений в интерфейсе.</p>
+        <p>На основе этого значения строится типографика, иконки, задаются размеры элементов и отступы. Значения, кратные 4 используются везде, где это не противоречит здравому смыслу.</p>
+        <img className='gridsize-image' src={gridsize1}  />
+        <p>Использование модуля снижает вероятность ошибки при создании нового дизайна и при переносе элементов и отсупов в код, облегчает процесс масштабирования, структурирует страницы и раположенный на них контент.</p>
+      </div>
+      <div className='layout-container'>
+        <h3>Отступы</h3>
+        <p>Все отступы в дизайн системе строятся на основе модуля в 4px. Для удобства все подходящие значения имеют нейминг, соответсвующий их размерности: от самого маленького к самому большому.</p>
+        <img className='sizes-image' src={sizes} alt="" />
+        <p>Рекомендуется использовать минимальное возможное количество разных отступов в рамках одного экрана.</p>
+        <p>Набор токенов отступов продуман, чтобы обеспечить визуальную различимость между разными токенами</p>
+        <div className='card-container'>
+          <img src={sendcard} alt="" />
+          <img src={sendroutecard} alt="" />
+        </div>
+        <div className='text-container'>
+          <h3>Текст</h3>
+          <p>При компоновке текста нужно учитывать размер и интерлиньяж. Между заголовком и основным текстом должно быть больше расстояния чем между абзацами. При этом для сохранения правила внутренего и внешнего нужно, отступы сверху и по бокам были больше расстояния между заголвоком и текстом.</p>
+          <p>Размер параграфного отступа зависит от кегля и должен равняться размеру интерлиньяжа или быть приближенным к нему</p>
+          <img className='text-image'src={texttitle} alt="" />
         </div>
       </div>
     </div>
