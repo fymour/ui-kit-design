@@ -343,7 +343,7 @@ export const TypographyPage = () => {
           Заголовки автоматически уменьшаются при изменении ширины экрана в соответствии с таблицей. Необходимо учитывать это в дизайне продуктов, и использовать корректные соответствия размеров в адаптивных макетах.
         </p>
         <div className="sizes-block">
-          <img src={sizes_frame} alt="" />
+          <img src={sizes_frame} alt=""  />
         </div>
         <div className="text-footer">
           <p>
