@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-.pages-description{
+.container{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -90,4 +90,25 @@
 }
 .sizes-image{
     width: 90%;
+}
+
+
+.card-container{
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+}
+.card-container img{
+    width: 494px;
+    height: 280px;
+
+}
+@media only screen and (max-width: 1440px) {
+    .card-container img {
+      width: 362px;
+      height: 200px;
+    }
+  }
+.text-image{
+    width: 80%;
 }
