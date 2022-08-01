@@ -277,7 +277,7 @@ export const TypographyPage = () => {
           </div>
         </div>
       </div>
-      <div className="block-five">
+      <div className="block-five" id='typography-hierarchy'>
         <h2>
           Иерархия
         </h2>
@@ -300,7 +300,7 @@ export const TypographyPage = () => {
           <img src={false_frame} alt="" />
         </div>
       </div>
-      <div className="block-six">
+      <div className="block-six" id='typography-adaptivity'>
         <h2>
           Адаптивность 
         </h2>
