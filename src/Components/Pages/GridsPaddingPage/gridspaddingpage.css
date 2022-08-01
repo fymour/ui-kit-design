@@ -9,7 +9,7 @@
     margin: 0;
 }
 
-.contain{
+.pages-description{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -71,5 +71,23 @@
     font-size: 30px;
     line-height: 38px;
     color: #101828;
-    padding-bottom: 16px;
+}
+
+.gridsize-image{
+    padding-top: 36px;
+    padding-bottom: 24px;
+}
+.layout-container{
+    padding-top: 56px;
+
+}
+.layout-container h3{
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    color: #101828;
+}
+.sizes-image{
+    width: 90%;
 }
