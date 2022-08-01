@@ -65,8 +65,8 @@ export default function Menu() {
             <a href="#typography-title">Заголовки</a>
             <a href="#typography-text">Наборный текст, подписи, подзаголовки</a>
             <a href="#typography-length">Длина строки</a>
-            <a href="#">Иерархия</a>
-            <a href="#">Адаптивность </a>
+            <a href="#typography-hierarchy">Иерархия</a>
+            <a href="#typography-adaptivity">Адаптивность </a>
           </div>}
           <Link to='/gridsPadding' className="active"><div className='show-menu-link'>Модуль и сетка</div></Link>
           <Link to='/icons' className="active"><div className='show-menu-link'>Прочие токены</div></Link>
