@@ -67,63 +67,31 @@ export const TypographyPage = () => {
         <p className='title'>
           Заголовки
         </p>
-        <p>
+        <p className='first'>
           Чтобы страницы выглядели гармонично, не нужно использовать текстовые стили, которые стоят рядом, заголовок и наборный текст должны отличаться друг от друга на пару пунктов. Например, с «heading/h2» лучше всего использовать «paragraph/body/large» или в крайнем случае с «lead/large». При этом нужно понимать целевое назначение материала — в промо лучше смотрится большой контраст между набором и заголовком, а в интерфейсах такой подход отвлекает от главного, поэтому градус контрастности лучше снижать.
         </p>
-        <p>
+        <p className='second'>
           Для лидов в промо-материалах мы добавили Slab начертание шрифта — «lead/large» и «lead/small». Но его не рекомендуется использовать в интерфейсах и личных кабинетах.
         </p>
         <div className="block-two-inside">
 
           <div className="zagolovki">
-            <div className="h1">
-              <p>
-                heading/h1
-              </p>
-              <h1>
-                Заголовок H1
-              </h1>
-            </div>
-            <div className="h2">
-              <p>
-                heading/h2
-              </p>
-              <h2>
-                Заголовок H2
-              </h2>
-            </div>
-            <div className="h3">
-              <p>
-                heading/h3
-              </p>
-              <h3>
-                Заголовок H1
-              </h3>
-            </div>
-            <div className="h3-large">
-              <p>
-                lead/large
-              </p>
-              <h3>
-                Заголовок H3
-              </h3>
-            </div>
-            <div className="h4">
-              <p>
-                heading/h4
-              </p>
-              <h4>
-                Заголовок H4
-              </h4>
-            </div>
-            <div className="h4-large">
-              <p>
-                lead/small
-              </p>
-              <h4>
-                Заголовок H4
-              </h4>
-            </div>
+           <div className="left-title">
+            <p className='one-par'> heading/h1 </p>
+            <p className='two-par'> heading/h2 </p>
+            <p className='three-par'> heading/h3 </p>
+            <p className='four-par'> lead/large </p>
+            <p className='five-par'> heading/h4 </p>
+            <p className='six-par'> lead/small </p>
+           </div>
+           <div className="right-headers">
+            <h1>Заголовок H1</h1>
+            <h2>Заголовок H2</h2>
+            <h3>Заголовок H3</h3>
+            <h3 className='h3-2'>Заголовок H3</h3>
+            <h4>Заголовок H4</h4>
+            <h4 className='h4-2'>Заголовок H4</h4>
+           </div>
           </div>
         </div>
 
@@ -145,7 +113,7 @@ export const TypographyPage = () => {
           <p>
             Рекомендуется использовать стиль «paragraph/body» для наборного текста, а «caption» и «lable» для подзаголовков и подписей.
           </p>
-          <p>
+          <p className='style-p'>
             Стиль Paragraph используется для наборного текста.
           </p>
         </div>
@@ -228,7 +196,7 @@ export const TypographyPage = () => {
         <h2>
           Длина строки
         </h2>
-        <p>
+        <p className='block-four-p'>
           Люди читают с экрана компьютера очень избирательно. Необходимо выбирать удобную длину строки, чтобы текст не был слишком коротким или слишком длинным. Для оптимальной читабельности рекомендуется выбирать длину строки от 40 до 80 символов, включая пробелы.
         </p>
         <div className="block-strings">
@@ -339,7 +307,7 @@ export const TypographyPage = () => {
         <p>
           Изменяеются только заголовки, остальные шрифты остаются без изменений.
         </p>
-        <p>
+        <p className='block-six-p'>
           Заголовки автоматически уменьшаются при изменении ширины экрана в соответствии с таблицей. Необходимо учитывать это в дизайне продуктов, и использовать корректные соответствия размеров в адаптивных макетах.
         </p>
         <div className="sizes-block">

@@ -5,6 +5,10 @@
 
 }
 .typography{
+    h1{
+        margin: 0%;
+        padding-top: 160px;
+    }
     p{
         font-family: 'Rubik';
         font-size: 40px;
@@ -15,14 +19,17 @@
 .block-one{
     display: flex;
     width: 100%;
+    margin: 0%;
+    padding-top: 136px;
     .block-one-inside{
         .m0{
-            margin-top: 0;
-        }
-        p{
+            display: flex;
+            width: 95%;
+            margin: 0;
             font-weight: 700;
             font-size: 18px;
             line-height: 28px;
+            padding-bottom: 40px;
         }
     }
     .block-one-inside-second{
@@ -36,7 +43,20 @@
             height: 20%;
             justify-content: flex-start;
             flex-direction: column;
-            
+            p{
+                margin: 0;
+                padding-bottom: 24px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            span{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                margin: 0;
+                padding-bottom:24px
+            }
         }
         .center-block{
             display: flex;
@@ -44,6 +64,20 @@
             justify-content: flex-start;
             
             flex-direction: column;
+            p{
+                margin: 0;
+                padding-bottom: 24px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            span{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                margin: 0;
+                padding-bottom:24px
+            }
             
         }
         .right-block{
@@ -52,6 +86,24 @@
             justify-content: flex-start;
             align-items: flex-start;
             flex-direction: column;
+            p{
+                margin: 0;
+                padding-bottom: 24px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            span{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                margin: 0;
+                padding-bottom:24px
+            }
+            img{
+                margin: 0;
+                padding-bottom: 24px;
+            }
         }
     }
 }
@@ -62,65 +114,141 @@
 
     .title{
         font-size: 24px;
+        margin: 0;
+        padding-bottom: 16px;
         // font-weight: 700;
         line-height: 32px;
+    }
+    .first{
+        margin-top: 0;
+    }
+    .second{
+        margin: 0;
+        padding-bottom: 40px;
     }
 }
 .block-two-inside{
     display: flex;
-    width: 70%;
-    justify-content: flex-start;
+    width: 68%;
+    align-items: flex-start;
+    justify-content: space-around;
 }
 .zagolovki{
     display: flex;
-    width: 50%;
-    flex-direction: column;
+    width: 75%;
+    
+    align-items: flex-start;
     justify-content: space-between;
 
-    
-    
-    .h1{
+    .left-title{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        ;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end;
+       
+        .one-par{
+            padding-top: 20px;
+            padding-bottom: 104px;
+        }
+        .two-par{
+            padding-top: 15px;
+            padding-bottom: 104px;
+        }
+        .three-par{
+            // padding-top: 15px;
+            padding-bottom: 90px;
+        }
+        .four-par{
+            // padding-top: 15px;
+            padding-bottom: 95px;
+            text-align: right;
+        }
+        .five-par{
+            padding-bottom: 90px;
+        }
+        p{
+            display: flex;
+            margin: 0;
+            text-align: right;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            color: #6B7A99;
+        }
     }
-    .h2{
+    .right-headers{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        ;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: black;
+
+        h1{
+            margin: 0;
+            font-weight: 500;
+            font-size: 56px;
+            line-height: 64px;
+            padding-bottom: 80px;
+
+        }
+        h2{
+            margin: 0;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 56px;
+            padding-bottom: 80px;
+
+        }
+        h3{
+            margin: 0;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 40px;
+            color: black;
+            padding-bottom: 80px;
+        }
+        .h3-2{
+            margin: 0;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 40px;
+            color: black;
+            padding-bottom: 80px;
+
+        }
+        h4{
+            margin: 0;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 32px;
+            padding-bottom: 80px;
+
+        }
+        .h4-2{
+            margin: 0;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px; 
+            padding-bottom: 200px;
+        }
     }
-    .h3{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        ;
-    }
-    .h3-large{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        ;
-    }
-    .h4{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        ;
-    }
-    .h4-large{
-        display: flex;
-        justify-content: space-between;
-        align-items: center; 
-        ;
-    }
+
 }
 .block-three{
     display: flex;
     width: 100%;
     flex-direction: column;
 
+    h2{
+        margin: 0;
+        padding-bottom: 16px;
+    }
+    .three-first{
+        margin: 0;
+    }
+    .style-p{
+        
+        padding-bottom: 56px;
+    }
     .row-one{
         display: flex;
         width: 48%;
@@ -268,6 +396,7 @@
             font-weight: 500;
             font-size: 14px;
             line-height: 20px;
+            
         }
         
     }
@@ -296,6 +425,8 @@
             font-weight: 500;
             font-size: 12px;
             line-height: 18px;
+            margin-bottom: 0;
+            padding-bottom: 176px;
         }
 
     }
@@ -305,6 +436,15 @@
     display: flex;
     width: 100%;
     flex-direction: column;
+    
+    h2{
+        margin: 0;
+        padding-bottom: 16px;
+    }
+    .block-four-p{
+        margin: 0;
+        padding-bottom: 72px; 
+    }
 
     .block-strings{
         display: flex;
@@ -322,11 +462,23 @@
             .text{
                 display: flex;
                 flex-direction: column;
+
+                p{
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin: 0;
+                    padding-bottom: 16px;
+                }
                 
                 .text-second{
                     p{
                         display: flex;
                         width: 30%;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        padding-bottom: 64px;
                        
                     }
                 }
@@ -342,11 +494,22 @@
             .text{
                 display: flex;
                 flex-direction: column;
+                p{
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin: 0;
+                    padding-bottom: 16px;
+                }
 
                 .text-second{
                     p{
                         display: flex;
                         width: 55%; 
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        padding-bottom: 64px;
                     }
                 }
             }
@@ -361,11 +524,22 @@
                 display: flex;
                 width: 88%;
                 flex-direction: column;
+                p{
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin: 0;
+                    padding-bottom: 16px;
+                }
 
                 .text-second{
                     p{
                         display: flex;
                         width: 65%; 
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        padding-bottom: 64px;
                     }
                 }
             }
@@ -380,7 +554,24 @@
                 display: flex;
                 width: 88%;
                 flex-direction: column;
+                
 
+
+                p{
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin: 0;
+                    padding-bottom: 16px;
+                }
+                .text-second{
+                    p{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        padding-bottom: 64px;
+                    }
+                }
                
             }
         }
@@ -394,9 +585,22 @@
                 display: flex;
                 width: 88%;
                 flex-direction: column;
+
+                p{
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 32px;
+                    margin: 0;
+                    padding-bottom: 16px;
+                }
+
+                
                 .text-second{
                     p{
+                        font-weight: 400;
                         font-size: 16px;
+                        line-height: 24px;
+                        padding-bottom: 160px;
                     }
                 }
             }
@@ -408,6 +612,11 @@
     display: flex;
     width: 100%;
     flex-direction: column;
+    
+    h2{
+        margin: 0;
+        
+    }
     .p-h2{
         display: flex;
         flex-direction: column;
@@ -423,9 +632,6 @@
         padding-top: 40px;
         justify-content: space-around;
         img{
-            // display: flex;
-            // display: flex;
-            // justify-content: space-around;
             width: 45%;
             height: 60%;
         }
@@ -436,15 +642,18 @@
     width: 100%;
     padding-top: 150px;
     flex-direction: column;
+    .block-six-p{
+        margin: 0;
+        padding-bottom: 40px;
+    }
 
     .sizes-block{
         display: flex;
-       
         width: 99%;
-        // justify-content: space-around;
         img{
             width: 100%;
             height: auto;
+            padding-bottom: 24px;
         }
     }
 }
