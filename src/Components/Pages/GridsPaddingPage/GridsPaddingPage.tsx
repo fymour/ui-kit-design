@@ -4,6 +4,8 @@ import breakpoint from '../../Assets/image/breakpoint.png'
 import size from '../../Assets/image/size.png'
 import controlg from '../../Assets/image/conrolg.png'
 import desktop from '../../Assets/image/desktop.png'
+import gridsize1 from '../../Assets/image/gridsize1.png'
+import sizes from '../../Assets/image/sizes.png'
 
 
 export const GridsPaddingPage = () => {
@@ -39,6 +41,15 @@ export const GridsPaddingPage = () => {
         <h3>Модуль</h3>
         <p>Минимальный модуль — 4 px. Это базовая единица измерений в интерфейсе.</p>
         <p>На основе этого значения строится типографика, иконки, задаются размеры элементов и отступы. Значения, кратные 4 используются везде, где это не противоречит здравому смыслу.</p>
+        <img className='gridsize-image' src={gridsize1}  />
+        <p>Использование модуля снижает вероятность ошибки при создании нового дизайна и при переносе элементов и отсупов в код, облегчает процесс масштабирования, структурирует страницы и раположенный на них контент.</p>
+      </div>
+      <div className='layout-container'>
+        <h3>Отступы</h3>
+        <p>Все отступы в дизайн системе строятся на основе модуля в 4px. Для удобства все подходящие значения имеют нейминг, соответсвующий их размерности: от самого маленького к самому большому.</p>
+        <img className='sizes-image' src={sizes} alt="" />
+        <p>Рекомендуется использовать минимальное возможное количество разных отступов в рамках одного экрана.</p>
+        <p>Набор токенов отступов продуман, чтобы обеспечить визуальную различимость между разными токенами</p>
       </div>
     </div>
   )
