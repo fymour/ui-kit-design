@@ -6,7 +6,7 @@ import './ButtonPage.css'
 
 export const ButtonPage = () => {
   return (
-    <div>
+    <div className='content'>
       <h1>Описание</h1>
       <div className='pages-description'>
         <p>Button — это компонент, который запускает действие. Также кнопки сообщают пользователям, что будет дальше.
