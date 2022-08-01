@@ -18,6 +18,7 @@ export const FooterPage = () => {
             <p>Footer  — это нижняя часть страницы. Footer имеет вторичную навигацию с ссылками
                 на метаинформацию, а также помогает пользователям найти информацию об авторских правах, лицензировании и другую необходимую информацию.
             </p>
+            <h1>Desktop Small</h1>
                 <Footer>
                     <Row className="row">
 
@@ -111,6 +112,7 @@ export const FooterPage = () => {
                 </Footer>
 
                 <div className='pad'></div>
+                <h1>Tablet Large</h1>
                 <Footer size='small'>
                     <Row className="row">
 
@@ -201,6 +203,7 @@ export const FooterPage = () => {
                 </Footer>
 
                 <div className='pad'></div>
+                <h1>Mobile Large</h1>
                 <Footer device='mobile' size='large'>
                     <Row className="">
                         <div className='row'>
