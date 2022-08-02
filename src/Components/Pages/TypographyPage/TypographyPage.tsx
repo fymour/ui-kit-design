@@ -118,31 +118,27 @@ export const TypographyPage = () => {
           </p>
         </div>
         <div className="blocks">
-          <div className="left-blocks">
-            <p className='left-blocks-1'>paragraph/body/large</p>
-            <p className='left-blocks-2'>paragraph/body/small</p>
-            <p className='left-blocks-3'>caption/x_large</p>
-            <p className='left-blocks-4'>caption/large</p>
-            <p className='left-blocks-5'>caption/medium</p>
-            <p className='left-blocks-6'>caption/small</p>
-            <p className='left-blocks-7'>caption/x_small</p>
-          </div>
-          <div className="center-blocks">
-            <p className="center-blocks-1">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-            <p className="center-blocks-2">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-            <p className="center-blocks-3">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-            <p className="center-blocks-4">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-            <p className="center-blocks-5">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-            <p className="center-blocks-6">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-            <p className="center-blocks-7">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-          </div>
-          <div className="right-blocks">
-          <p className="right-blocks-1">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-          <p className="right-blocks-2">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-          <p className="right-blocks-3">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-          <p className="right-blocks-4">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-          <p className="right-blocks-5">Ведь цифровизация — это не просто чья-то мечта, это требование времени</p>
-          </div>
+         <div className='grid-1'>paragraph/body/large</div>
+         <div className='grid-2'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-3'></div>
+         <div className='grid-4'>paragraph/body/small</div>
+         <div className='grid-5'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-6'></div>
+         <div className='grid-7'>caption/x_large</div>
+         <div className='grid-8'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-9'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-10'>caption/large</div>
+         <div className='grid-11'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-12'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-13'>caption/medium</div>
+         <div className='grid-14'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-15'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-16'>caption/small</div>
+         <div className='grid-17'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-18'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-19'>caption/x_small</div>
+         <div className='grid-20'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-21'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
         </div>
       </div>
       <div className="block-four" id='typography-length'>

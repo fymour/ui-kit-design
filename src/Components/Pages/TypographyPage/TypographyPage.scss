@@ -250,124 +250,84 @@
         padding-bottom: 56px;
     }
     .blocks{
-        display: flex;
-        width: 90%;
-        justify-content: space-around;
-        .left-blocks{
-            display: flex;
-            width: 20%;
-            align-items: flex-end;
-            flex-direction: column;
-            
-            color: #6B7A99;
-            p{
-                margin: 0;
-            }
-            .left-blocks-1{
-                padding-top: 40px;
-                padding-bottom:90px ;
-            }
-            .left-blocks-2{
-                padding-bottom:100px ;
-            }
-            .left-blocks-3{
-                padding-bottom:100px ;
-            }
-            .left-blocks-4{
-                padding-bottom:90px ;
-            }
-            .left-blocks-5{
-                padding-bottom:65px ;
-            }
-            .left-blocks-6{
-                padding-bottom:60px ;
-            }
-           
-          
-
-            
-        }
-        .center-blocks{
-            display: flex;
-            width: 35%;
-            flex-direction: column;
-            p{
-                display: flex;
-                width: 80%;
-            }
-            .center-blocks-1{
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 24px;
-            }
-            .center-blocks-2{
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 24px;
-            }
-            .center-blocks-3{
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 28px;
-            }
-            .center-blocks-4{
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 24px;
-            }
-            .center-blocks-5{
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 24px;
-            }
-            .center-blocks-6{
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 20px;
-            }
-            .center-blocks-7{
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 18px;
-            }
-
-        }
-        .right-blocks{
-            display: flex;
-            width: 35%;
-            flex-direction: column;
-            justify-content: flex-end;
-
-            p{
-                display: flex;
-                width: 80%;
-            }
-            .right-blocks-1{
-                font-weight: 600;
-                font-size: 20px;
-                line-height: 28px;
-            }
-            .right-blocks-2{
-                font-weight: 500;
-                font-size: 18px;
-                line-height: 24px;
-            }
-            .right-blocks-3{
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 24px;
-            }
-            .right-blocks-4{
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 20px;
-            }
-            .right-blocks-5{
-                font-weight: 500;
-                font-size: 12px;
-                line-height: 18px;
-            }
-        }
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       gap: 10px;
+       grid-auto-rows: 100px;
+       
+       width: 80%;
+       
+       .grid-1, 
+       .grid-4,
+       .grid-7,
+       .grid-10,
+       .grid-13,
+       .grid-16,
+       .grid-19{
+        color: #6B7A99;
+        text-align: right;
+        width: 80%;
+       }
+       .grid-2{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+       }
+       .grid-5{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+       }
+       .grid-8{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+       }
+       .grid-9{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+       }
+       .grid-11{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+       }
+       .grid-12{
+        font-weight:500;
+        font-size: 18px;
+        line-height: 24px;
+       }
+       .grid-14{
+        font-weight:400;
+        font-size: 16px;
+        line-height: 24px;
+       }
+       .grid-15{
+        font-weight:500;
+        font-size: 16px;
+        line-height: 24px;
+       }
+       .grid-17{
+        font-weight:400;
+        font-size: 14px;
+        line-height: 20px;
+       }
+       .grid-18{
+        font-weight:500;
+        font-size: 16px;
+        line-height: 20px;
+       }
+       .grid-20{
+        font-weight:400;
+        font-size: 12px;
+        line-height: 18px;
+       }
+       .grid-21{
+        font-weight:500;
+        font-size: 12px;
+        line-height: 18px;
+       }
     }
 
 }
@@ -730,136 +690,5 @@
             }
         }
     
-    }
-
-    .blocks{
-        display: flex;
-        width: 90%;
-        justify-content: space-around;
-        .left-blocks{
-            display: flex;
-            width: 20%;
-            align-items: flex-end;
-            flex-direction: column;
-            
-            color: #6B7A99;
-            p{
-                margin: 0;
-            }
-            .left-blocks-1{
-                padding-top: 40px;
-                padding-bottom:70px ;
-            }
-            .left-blocks-2{
-                padding-bottom:50px ;
-            }
-            .left-blocks-3{
-                padding-bottom:80px ;
-            }
-            .left-blocks-4{
-                padding-bottom:80px ;
-            }
-            .left-blocks-5{
-                padding-bottom:90px ;
-            }
-            .left-blocks-6{
-                padding-bottom:60px ;
-            }
-            .left-blocks-7{
-                padding-bottom:40px ;
-            }
-
-           
-          
-
-            
-        };
-        .center-blocks{
-
-            display: flex;
-            width: 35%;
-            justify-content: space-around;
-            flex-direction: column;
-            p{
-                display: flex;
-                width: 80%;
-            }
-            .center-blocks-1{
-                
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 24px;
-            }
-            .center-blocks-2{
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 24px;
-            }
-            .center-blocks-3{
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 28px;
-            }
-            .center-blocks-4{
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 24px;
-            }
-            .center-blocks-5{
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 24px;
-            }
-            .center-blocks-6{
-                font-weight: 400;
-                font-size: 14px;
-                line-height: 20px;
-            }
-            .center-blocks-7{
-                font-weight: 400;
-                font-size: 12px;
-                line-height: 18px;
-            }
-
-        }
-        .right-blocks{
-            display: flex;
-            width: 35%;
-            flex-direction: column;
-            justify-content: flex-end;
-
-            p{
-                display: flex;
-                width: 80%;
-            }
-            .right-blocks-1{
-                font-weight: 600;
-                font-size: 20px;
-                line-height: 28px;
-            }
-            .right-blocks-2{
-                padding-bottom: 10px;
-                font-weight: 500;
-                font-size: 18px;
-                line-height: 24px;
-            }
-            .right-blocks-3{
-                padding-bottom: 20px;
-                font-weight: 500;
-                font-size: 16px;
-                line-height: 24px;
-            }
-            .right-blocks-4{
-                padding-bottom: 30px;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 20px;
-            }
-            .right-blocks-5{
-                font-weight: 500;
-                font-size: 12px;
-                line-height: 18px;
-            }
-        }
     }
 }
