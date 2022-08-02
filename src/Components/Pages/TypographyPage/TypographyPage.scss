@@ -57,6 +57,9 @@
                 margin: 0;
                 padding-bottom:24px
             }
+            img{
+                width: 100%;
+            }
         }
         .center-block{
             display: flex;
@@ -77,6 +80,9 @@
                 line-height: 24px;
                 margin: 0;
                 padding-bottom:24px
+            }
+            img{
+                width: 100%;
             }
             
         }
@@ -102,6 +108,7 @@
             }
             img{
                 margin: 0;
+                width: 100%;
                 padding-bottom: 24px;
             }
         }
@@ -354,9 +361,10 @@
 
         .one-strings{
             display: flex;
-            width: 90%;
+            width: 85%;
             justify-content: space-around;
-            
+        
+           
          
             .text{
                 display: flex;

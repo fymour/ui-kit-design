@@ -151,7 +151,7 @@ export const TypographyPage = () => {
         <div className="block-strings">
           <div className="one-strings">
             <div className="icon">
-              <img src={icon_1} alt="" />
+              <img src={icon_1} width='32px' height='32px' alt="" />
             </div>
             <div className="text">
               <p>
@@ -166,7 +166,7 @@ export const TypographyPage = () => {
           </div>
           <div className="two-strings">
             <div className="icon">
-              <img src={icon_2} alt="" />
+              <img src={icon_2} width='32px' height='32px' alt="" />
             </div>
             <div className="text">
               <p>
@@ -181,7 +181,7 @@ export const TypographyPage = () => {
           </div>
           <div className="three-strings">
             <div className="icon">
-              <img src={icon_2} alt="" />
+              <img src={icon_2} width='32px' height='32px' alt="" />
             </div>
             <div className="text">
               <p>
@@ -196,7 +196,7 @@ export const TypographyPage = () => {
           </div>
           <div className="four-strings">
             <div className="icon">
-              <img src={icon_3} alt="" />
+              <img src={icon_3} width='32px' height='32px' alt="" />
             </div>
             <div className="text">
               <p>
@@ -211,7 +211,7 @@ export const TypographyPage = () => {
           </div>
           <div className="five-strings">
             <div className="icon">
-              <img src={icon_1} alt="" />
+              <img src={icon_1} width='32px' height='32px' alt="" />
             </div>
             <div className="text">
               <p>
