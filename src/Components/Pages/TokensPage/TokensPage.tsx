@@ -1,11 +1,11 @@
 import React from 'react'
 import cat from '../../Assets/image/cat.png'
 
-export const LevelsInterfacePage = () => {
+export const TokensPage = () => {
   return (
     <div>
       <div className='heading-title'>
-        <h2>Уровни интерфейса</h2>
+        <h2>Прочие токены</h2>
       </div>
       <div className="block-inside-ab-sys">
         <div className="left-ab-sys">

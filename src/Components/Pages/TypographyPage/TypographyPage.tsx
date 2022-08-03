@@ -14,11 +14,9 @@ import sizes_frame from '../../../ui-kit/Assets/img/size.png'
 export const TypographyPage = () => {
   return (
     <div className='typography-page'>
-      <div className='typography'>
         <h1 className='pages-title'>
           Типографика
         </h1>
-      </div>
       <div className="block-one pages-description">
         <div className="block-one-inside">
           <p className='m0'>

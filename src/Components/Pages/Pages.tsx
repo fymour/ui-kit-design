@@ -12,12 +12,12 @@ import { Glossary } from './Glossary/Glossary';
 import { ColorPage } from './ColorsPage/ColorPage';
 import { TypographyPage } from './TypographyPage/TypographyPage';
 import { GridsPaddingPage } from './GridsPaddingPage/GridsPaddingPage';
-import { IconsPage } from './IconsPage/IconsPage';
 import { LevelsInterfacePage } from './LevelsInterfacePage/LevelsInterfacePage';
 import { AboutSystem } from './AboutSystemPage/AboutSystem';
 import { CheckboxPage } from './CheckboxPage/CheckboxPage';
 import ModalPage from './ModalPage';
 import { PopoverPage } from './PopoverPage/PopoverPage';
+import { TokensPage } from './TokensPage/TokensPage';
 
 
 
@@ -30,7 +30,6 @@ export default function Pages() {
           <Route path="/colors" element={<ColorPage/>}/>
           <Route path="/typography" element={<TypographyPage/>}/>
           <Route path="/gridsPadding" element={<GridsPaddingPage/>}/>
-          <Route path="/icons" element={<IconsPage/>}/>
           <Route path="/levesInterface" element={<LevelsInterfacePage/>}/>
           <Route path="/glossary" element={<Glossary/>}/> 
           <Route path="/button" element={<ButtonPage/>}/> 
@@ -43,6 +42,7 @@ export default function Pages() {
           <Route path="/footer" element={<FooterPage/>}/> 
           <Route path="/modal" element={<ModalPage/>}/> 
           <Route path="/popover" element={<PopoverPage/>}/> 
+          <Route path="/tokens" element={<TokensPage/>}/> 
         </Routes>
     </div>
   )

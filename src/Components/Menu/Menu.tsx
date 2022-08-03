@@ -68,8 +68,8 @@ export default function Menu() {
             <a href="#typography-adaptivity">Адаптивность </a>
           </div>}
           <Link to='/gridsPadding' className="active"><div className='show-menu-link'>Модуль и сетка</div></Link>
-          {/* <Link to='/icons' className="active"><div className='show-menu-link'>Прочие токены</div></Link>
-          <Link to='/levelsInterface' className="active"><div className='show-menu-link'>Уровни интерфейса</div></Link> */}
+          <Link to='/tokens' className="active"><div className='show-menu-link'>Прочие токены</div></Link>
+          <Link to='/levesInterface' className="active"><div className='show-menu-link'>Уровни интерфейса</div></Link>
         </div>}
       </div>
       <div>

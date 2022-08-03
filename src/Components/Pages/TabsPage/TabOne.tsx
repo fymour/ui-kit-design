@@ -18,7 +18,6 @@ const TabOne = () => {
 
   return (
     <section className="TabsPage">
-                <h2>Tabs - normal</h2>
                 <Tabs selectedId={selectedTabId} variant='normal' tabs={tabs} onClick={handleTabClick} />
                 <div className="TabsPage-Content">
                     {selectedTabId === tabs[0].id && (

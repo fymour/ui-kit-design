@@ -41,7 +41,9 @@ export const GridsPaddingPage = () => {
       </div>
       <div className='desktop-container'>
         <h3>Desktop Small</h3>
+        <div className='grid3'>
         <img src={grid3} alt="" />
+        </div>
       </div>
       <div className='module-container'>
         <h3>Модуль</h3>

@@ -4,18 +4,6 @@
     flex-direction: column;
 
 }
-.typography{
-    h1{
-        margin: 0%;
-        padding-top: 160px;
-    }
-    p{
-        font-family: 'Rubik';
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 64px;
-    }
-}
 .block-one{
     display: flex;
     width: 100%;
@@ -610,7 +598,7 @@
     }
     .block-two-inside{
         display: flex;
-        width: 90%;
+        width: 58%;
         align-items: flex-start;
         justify-content: space-around;
     }

@@ -19,7 +19,7 @@ export const ModalPage: React.FC = () => {
   };
 
   return (
-    <>
+    <div className="content">
       <h1 className='pages-title'>
       Описание
         </h1>
@@ -27,7 +27,7 @@ export const ModalPage: React.FC = () => {
         <p>Modal — это компонент модального окна. Модальное окно используется, чтобы привлечь внимание пользователя и/или побудить совершить определённое действие.
           Модальное окно появляется поверх родительского экрана, главная страница уходит на второй план, но при этом остаётся в поле зрения. Пользователю предлагается выполнить какое-либо действие, чтобы вернуться к основному окну.
         </p>
-        <h2>Modal</h2>
+        <h3>Modal</h3>
         <Button onClick={handleModalOpen} disableStyle={""} hoverStyle={""} activeStyle={""}>Open</Button>
 
         <Modal isOpen={isOpenModal} onCloseModal={handleModalClose}>
@@ -50,6 +50,6 @@ export const ModalPage: React.FC = () => {
           {/* <Modal.Footer buttonSubmitText="close" onSubmit={handleModalSubmit} /> */}
         </Modal>
       </div>
-    </>
+    </div>
   );
 };

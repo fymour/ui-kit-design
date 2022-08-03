@@ -17,7 +17,6 @@ const Tabtree = () => {
 
   return (
     <section className="TabsPage">
-                <h2>Tabs - outlined</h2>
                 <Tabs selectedId={selectedTabId} variant='outlined' tabs={tabs} onClick={handleTabClick} />
                 <div className="TabsPage-Content">
                     {selectedTabId === tabs[0].id && (
