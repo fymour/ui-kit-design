@@ -26,39 +26,41 @@ export const TypographyPage = () => {
             Чтобы изменить стиль текста в дизайне, следуйте инструкции:
           </p>
           <div className="block-one-inside-second">
-            <div className="left-block">
-              <p>
-                Скачайте шрифты
-              </p>
-              <span>
-                Все шрифты находятся по ссылке Шрифты Rubik Font Family
-              </span>
-              <img src={img_one} alt="" />
-            </div>
-            <div className="center-block">
-              <p>
-                Изучите систему шрифтов
-              </p>
-              <span>
-                Перед началом работы с шрифтами важно понять, как их использовать. Об этом можно прочитать на странице tokens / fonts
-              </span>
-              <img src={img_two} alt="" />
-            </div>
-            <div className="right-block">
-              <p>
-                Назначьте стиль тексту
-              </p>
-              <span>
-                После ввода текста необходимо задать ему стиль. Это можно сделать с помощью правой панели, нажав на иконку с точками в панели Text.
-              </span>
-              <img src={img_text} alt="" />
-              <span>
-                В открывшемся окне можно выбрать подходящий стиль.
-              </span>
-              <img src={img_text2} alt="" />
-              <span>
-                Подобным образом вы можете сменить один стиль на другой.
-              </span>
+            <div className="block-one-inside-in">
+              <div className="left-block">
+                <p>
+                  Скачайте шрифты
+                </p>
+                <span>
+                  Все шрифты находятся по ссылке Шрифты Rubik Font Family
+                </span>
+                <img src={img_one} alt="" />
+              </div>
+              <div className="center-block">
+                <p>
+                  Изучите систему шрифтов
+                </p>
+                <span>
+                  Перед началом работы с шрифтами важно понять, как их использовать. Об этом можно прочитать на странице tokens / fonts
+                </span>
+                <img src={img_two} alt="" />
+              </div>
+              <div className="right-block">
+                <p>
+                  Назначьте стиль тексту
+                </p>
+                <span>
+                  После ввода текста необходимо задать ему стиль. Это можно сделать с помощью правой панели, нажав на иконку с точками в панели Text.
+                </span>
+                <img src={img_text} alt="" />
+                <span>
+                  В открывшемся окне можно выбрать подходящий стиль.
+                </span>
+                <img src={img_text2} alt="" />
+                <span>
+                  Подобным образом вы можете сменить один стиль на другой.
+                </span>
+              </div>
             </div>
           </div>
         </div>
@@ -67,63 +69,31 @@ export const TypographyPage = () => {
         <p className='title'>
           Заголовки
         </p>
-        <p>
+        <p className='first'>
           Чтобы страницы выглядели гармонично, не нужно использовать текстовые стили, которые стоят рядом, заголовок и наборный текст должны отличаться друг от друга на пару пунктов. Например, с «heading/h2» лучше всего использовать «paragraph/body/large» или в крайнем случае с «lead/large». При этом нужно понимать целевое назначение материала — в промо лучше смотрится большой контраст между набором и заголовком, а в интерфейсах такой подход отвлекает от главного, поэтому градус контрастности лучше снижать.
         </p>
-        <p>
+        <p className='second'>
           Для лидов в промо-материалах мы добавили Slab начертание шрифта — «lead/large» и «lead/small». Но его не рекомендуется использовать в интерфейсах и личных кабинетах.
         </p>
         <div className="block-two-inside">
 
           <div className="zagolovki">
-            <div className="h1">
-              <p>
-                heading/h1
-              </p>
-              <h1>
-                Заголовок H1
-              </h1>
-            </div>
-            <div className="h2">
-              <p>
-                heading/h2
-              </p>
-              <h2>
-                Заголовок H2
-              </h2>
-            </div>
-            <div className="h3">
-              <p>
-                heading/h3
-              </p>
-              <h3>
-                Заголовок H1
-              </h3>
-            </div>
-            <div className="h3-large">
-              <p>
-                lead/large
-              </p>
-              <h3>
-                Заголовок H3
-              </h3>
-            </div>
-            <div className="h4">
-              <p>
-                heading/h4
-              </p>
-              <h4>
-                Заголовок H4
-              </h4>
-            </div>
-            <div className="h4-large">
-              <p>
-                lead/small
-              </p>
-              <h4>
-                Заголовок H4
-              </h4>
-            </div>
+           <div className="left-title">
+            <p className='one-par'> heading/h1 </p>
+            <p className='two-par'> heading/h2 </p>
+            <p className='three-par'> heading/h3 </p>
+            <p className='four-par'> lead/large </p>
+            <p className='five-par'> heading/h4 </p>
+            <p className='six-par'> lead/small </p>
+           </div>
+           <div className="right-headers">
+            <h1>Заголовок H1</h1>
+            <h2>Заголовок H2</h2>
+            <h3>Заголовок H3</h3>
+            <h3 className='h3-2'>Заголовок H3</h3>
+            <h4>Заголовок H4</h4>
+            <h4 className='h4-2'>Заголовок H4</h4>
+           </div>
           </div>
         </div>
 
@@ -145,96 +115,45 @@ export const TypographyPage = () => {
           <p>
             Рекомендуется использовать стиль «paragraph/body» для наборного текста, а «caption» и «lable» для подзаголовков и подписей.
           </p>
-          <p>
+          <p className='style-p'>
             Стиль Paragraph используется для наборного текста.
           </p>
         </div>
         <div className="blocks">
-          <div className="row-one">
-            <p className='small'>
-              paragraph/body/large
-            </p>
-            <p className='large' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-          </div>
-          <div className="row-two">
-            <p className='small'>
-              paragraph/body/small
-            </p>
-            <p className='large' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-          </div>
-          <div className="row-three">
-            <p className='small'>
-              caption/x_large
-            </p>
-            <p className='x-large_1' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-            <p className='x-large_2' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-          </div>
-          <div className="row-four">
-            <p className='small'>
-              caption/large
-            </p>
-            <p className='caption-large' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-            <p className='caption-large-2' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-          </div>
-          <div className="row-five">
-            <p className='small'>
-              caption/medium
-            </p>
-            <p className='caption-medium-1' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-            <p className='caption-medium-2' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-          </div>
-          <div className="row-six">
-            <p className='small'>
-              caption/small
-            </p>
-            <p className='caption-small-1' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-            <p className='caption-small-2' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-          </div>
-          <div className="row-seven">
-            <p className='small'>
-              caption/x_small
-            </p>
-            <p className='caption-x-small-1' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-            <p className='caption-x-small-2' >
-              Ведь цифровизация — это не просто чья-то мечта, это требование времени
-            </p>
-          </div>
-
+         <div className='grid-1'>paragraph/body/large</div>
+         <div className='grid-2'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-3'></div>
+         <div className='grid-4'>paragraph/body/small</div>
+         <div className='grid-5'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-6'></div>
+         <div className='grid-7'>caption/x_large</div>
+         <div className='grid-8'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-9'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-10'>caption/large</div>
+         <div className='grid-11'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-12'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-13'>caption/medium</div>
+         <div className='grid-14'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-15'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-16'>caption/small</div>
+         <div className='grid-17'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-18'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-19'>caption/x_small</div>
+         <div className='grid-20'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
+         <div className='grid-21'>Ведь цифровизация — это не просто чья-то мечта, это требование времени</div>
         </div>
       </div>
       <div className="block-four" id='typography-length'>
         <h2>
           Длина строки
         </h2>
-        <p>
+        <p className='block-four-p'>
           Люди читают с экрана компьютера очень избирательно. Необходимо выбирать удобную длину строки, чтобы текст не был слишком коротким или слишком длинным. Для оптимальной читабельности рекомендуется выбирать длину строки от 40 до 80 символов, включая пробелы.
         </p>
         <div className="block-strings">
           <div className="one-strings">
             <div className="icon">
-              <img src={icon_1} alt="" />
+              <img src={icon_1} width='32px' height='32px' alt="" />
             </div>
             <div className="text">
               <p>
@@ -249,7 +168,7 @@ export const TypographyPage = () => {
           </div>
           <div className="two-strings">
             <div className="icon">
-              <img src={icon_2} alt="" />
+              <img src={icon_2} width='32px' height='32px' alt="" />
             </div>
             <div className="text">
               <p>
@@ -264,7 +183,7 @@ export const TypographyPage = () => {
           </div>
           <div className="three-strings">
             <div className="icon">
-              <img src={icon_2} alt="" />
+              <img src={icon_2} width='32px' height='32px' alt="" />
             </div>
             <div className="text">
               <p>
@@ -279,7 +198,7 @@ export const TypographyPage = () => {
           </div>
           <div className="four-strings">
             <div className="icon">
-              <img src={icon_3} alt="" />
+              <img src={icon_3} width='32px' height='32px' alt="" />
             </div>
             <div className="text">
               <p>
@@ -294,7 +213,7 @@ export const TypographyPage = () => {
           </div>
           <div className="five-strings">
             <div className="icon">
-              <img src={icon_1} alt="" />
+              <img src={icon_1} width='32px' height='32px' alt="" />
             </div>
             <div className="text">
               <p>
@@ -339,7 +258,7 @@ export const TypographyPage = () => {
         <p>
           Изменяеются только заголовки, остальные шрифты остаются без изменений.
         </p>
-        <p>
+        <p className='block-six-p'>
           Заголовки автоматически уменьшаются при изменении ширины экрана в соответствии с таблицей. Необходимо учитывать это в дизайне продуктов, и использовать корректные соответствия размеров в адаптивных макетах.
         </p>
         <div className="sizes-block">
@@ -352,7 +271,7 @@ export const TypographyPage = () => {
           <p>
             чем больше отступ вокруг заголовка, тем доминантнее он в иерархическом ряде, тем больше он обобщает вложенный контент.
           </p>
-          <p>
+          <p className='text-footer-p'>
             В интерфейсах для мобильного экрана 320px самый большой кегль шрифта 20 пунктов и стиль текста caption/x_large/bold
           </p>
         </div>

@@ -12,7 +12,7 @@ import youtube from '../../../ui-kit/Assets/icons/youtube.svg'
 
 export const FooterPage = () => {
     return (
-        <>
+        <div className='content'>
             <h1>Описание</h1>
             <div className='pages-description'>
             <p>Footer  — это нижняя часть страницы. Footer имеет вторичную навигацию с ссылками
@@ -297,7 +297,7 @@ export const FooterPage = () => {
 
                 </Footer>
             </div>
-        </>
+        </div>
 
     )
 }

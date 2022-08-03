@@ -8,12 +8,12 @@ import grid4 from '../../Assets/image/grid4.png'
 import grid5 from '../../Assets/image/grid5.png'
 import grid6 from '../../Assets/image/grid6.png'
 import grid8 from '../../Assets/image/grid8.png'
-import grid9 from '../../Assets/image/grid9.png'
+
 
 
 export const GridsPaddingPage = () => {
   return (
-    <div className="grid">
+    <div className='content'>
       <div className='header-title'>
         <h1 className='pages-title'>Модуль и сетка</h1>
       </div>
