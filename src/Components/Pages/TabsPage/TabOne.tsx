@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Tabs, { ITab } from 'ui-kit/Tabs'
+import './TabsPage.css'
 
 
 const TabOne = () => {

@@ -17,7 +17,7 @@ export default function Menu() {
     setShowFirst(!showFirst)
   }
   const handleShowSecond = () => {
-    setShowSecond(!showSecond)
+    setShowSecond(!showSecond) 
   }
   const handleShowThird = () => {
     setShowThird(!showThird)
@@ -28,6 +28,7 @@ export default function Menu() {
   const handleShowTypography = () => {
     setShowTypography(!showTypography)
   }
+
   return (
     <div className='menu'>
       <div className='menu-all'>
@@ -49,11 +50,16 @@ export default function Menu() {
               </svg></div>}
               {showFirst && <div><svg className='icon-down' width="14" height="7" viewBox="0 0 14 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M6.46921 6.5339L0.997192 1.0609L2.05795 0.000312805L6.99961 4.9429L11.9412 0.000312805L13.0019 1.0609L7.52991 6.5339C7.38931 6.6746 7.19851 6.7537 6.99961 6.7537C6.80061 6.7537 6.60981 6.6746 6.46921 6.5339Z" fill="#101828" />
-              </svg></div>}
+              </svg></div>
+              }
+
             </div>
-            {showFirst && <div className='show-menu'>
+            {showFirst && 
+            <div className='show-menu'>
               <Link to='/about' className='active'><div className='show-menu-link'>Как начать работу с дизайн-системой</div></Link>
-            </div>}
+            </div>
+            }
+
           </div>
           <div>
             <div className='section' onClick={handleShowSecond}><a href="#" className='active'>Основы и стиль</a>

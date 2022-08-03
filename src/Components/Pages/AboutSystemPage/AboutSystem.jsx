@@ -13,6 +13,7 @@ export const AboutSystem = () => {
       <div className='heading-title'>
         <h2>Как начать работу с дизайн-системой</h2>
       </div>
+      <div className='pages-tabs'></div>
       <div className="block-inside-ab-sys">
         <div className="left-ab-sys">
           <h2>
