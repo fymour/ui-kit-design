@@ -4,6 +4,8 @@ import pricing from '../../Assets/image/pricing.png'
 import library from '../../Assets/image/library.png'
 import plugin from '../../Assets/image/plugin.png'
 import general from '../../Assets/image/general.png'
+import cat from '../../Assets/image/cat.png'
+
 
 export const AboutSystem = () => {
   return (
@@ -11,7 +13,21 @@ export const AboutSystem = () => {
       <div className='heading-title'>
         <h2>Как начать работу с дизайн-системой</h2>
       </div>
-      <div className='pages-description'>
+      <div className="block-inside-ab-sys">
+        <div className="left-ab-sys">
+          <h2>
+            Ой
+          </h2>
+          <p>
+            Страница находится 
+            в разработке
+          </p>
+        </div>
+        <div className="right-ab-sys">
+          <img src={cat} alt="" />
+        </div>
+      </div>
+      {/* <div className='pages-description'>
         <div className='semi-title'>
           <span>Просто следуйте инструкции:</span>
           <div className='semi-text'>Присоединитесь к команде</div>
@@ -42,7 +58,7 @@ export const AboutSystem = () => {
           <img classname='plugin' src={plugin} alt="" />
           <img className='general' src={general} alt="" />
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

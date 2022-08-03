@@ -93,3 +93,14 @@
     width: 349px;
     height: 223px;
 }
+
+.block-inside-ab-sys{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: cadetblue;
+
+    .left-ab-sys{
+        
+    }
+}
