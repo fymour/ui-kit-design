@@ -1,10 +1,10 @@
 import React from 'react'
 import './ColorPage.css'
-import color1 from '../../Assets/image/color.png'
-import color2 from '../../Assets/image/color4.png'
-import color3 from '../../Assets/image/color2.png'
-import color4 from '../../Assets/image/color5.png'
-import color5 from '../../Assets/image/color1.png'
+import color1 from '../../Assets/image/color1.png'
+import color2 from '../../Assets/image/color2.png'
+import color3 from '../../Assets/image/color3.png'
+import color4 from '../../Assets/image/color4.png'
+import color5 from '../../Assets/image/color5.png'
 
 export const ColorPage = () => {
   return (

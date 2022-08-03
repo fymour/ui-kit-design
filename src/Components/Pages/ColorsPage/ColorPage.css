@@ -1,4 +1,7 @@
 .color-page img{
+    width: 100%;
+}
+.color-page img{
     margin-left: -15px;
 }
 .color-page .color-img{
