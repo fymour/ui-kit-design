@@ -1,3 +1,9 @@
+.grid img{
+    width: 100%;
+}
+.grid4{
+    width: 70%;
+}
 .header-title{
     font-weight: 500;
     font-size: 40px;
@@ -88,24 +94,9 @@
 .sizes-image{
     width: 90%;
 }
-
-
 .card-container{
-    width: 76%;
-    display: flex;
-    justify-content: space-between;
-}
-.card-container img{
-    width: 494px;
-    height: 280px;
-
-}
-@media only screen and (max-width: 1440px) {
-    .card-container img {
-      width: 362px;
-      height: 200px;
-    }
-  }
-.text-image{
     width: 80%;
+}
+.text-image{
+    width: 90%;
 }
