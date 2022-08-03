@@ -4,7 +4,9 @@ import { Collapse } from '../../../ui-kit/Collapse/Collapse'
 const CollapsePage = () => {
   return (
     <div>
-      <h1>Описание</h1>
+      <h1 className='pages-title'>
+      Описание
+        </h1>
       <div className='pages-description'>
       <p>Collapse — это компонент, который позволяет сохранять большие объемы контента на небольшом пространстве за счет скрытия текста. Пользователь понимает суть содержимого из заголовка.
 

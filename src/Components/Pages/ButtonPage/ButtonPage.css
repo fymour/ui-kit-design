@@ -9,3 +9,7 @@
 .content {
     height: 105%;
 }
+
+.content h3{
+    margin-top: 80px;
+}

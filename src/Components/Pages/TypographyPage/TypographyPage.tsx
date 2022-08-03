@@ -32,7 +32,7 @@ export const TypographyPage = () => {
                   Скачайте шрифты
                 </p>
                 <span>
-                  Все шрифты находятся по ссылке Шрифты Rubik Font Family
+                  Все шрифты находятся по ссылке <a className='typography-link' href="#">Шрифты Rubik Font Family</a>
                 </span>
                 <img src={img_one} alt="" />
               </div>

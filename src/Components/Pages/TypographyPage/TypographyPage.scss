@@ -71,6 +71,9 @@
             img{
                 width: 100%;
             }
+            .typography-link{
+                color: #00468A;
+            }
         }
         .center-block{
             display: flex;
@@ -607,7 +610,7 @@
     }
     .block-two-inside{
         display: flex;
-        width: 58%;
+        width: 90%;
         align-items: flex-start;
         justify-content: space-around;
     }

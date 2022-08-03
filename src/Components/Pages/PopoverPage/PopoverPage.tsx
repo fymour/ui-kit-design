@@ -5,7 +5,9 @@ import './PopoverPage.css'
 export const PopoverPage = () => {
   return (
     <div>
-      <h1>Описание</h1>
+      <h1 className='pages-title'>
+      Описание
+        </h1>
       <div className='pages-description'>
         <p>Popover — это плавающее окно, прикрепленное к какому-либо элементу.
           Пользователь может взаимодействовать с содержимым Popover, в том числе выбирать текст или нажимать ссылки.

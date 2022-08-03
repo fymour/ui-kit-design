@@ -13,12 +13,14 @@ import youtube from '../../../ui-kit/Assets/icons/youtube.svg'
 export const FooterPage = () => {
     return (
         <div className='content'>
-            <h1>Описание</h1>
+            <h1 className='pages-title'>
+                Описание
+            </h1>
             <div className='pages-description'>
-            <p>Footer  — это нижняя часть страницы. Footer имеет вторичную навигацию с ссылками
-                на метаинформацию, а также помогает пользователям найти информацию об авторских правах, лицензировании и другую необходимую информацию.
-            </p>
-            <h1>Desktop Small</h1>
+                <p>Footer  — это нижняя часть страницы. Footer имеет вторичную навигацию с ссылками
+                    на метаинформацию, а также помогает пользователям найти информацию об авторских правах, лицензировании и другую необходимую информацию.
+                </p>
+                <h1>Desktop Small</h1>
                 <Footer>
                     <Row className="row">
 

@@ -4,7 +4,9 @@ import { Input } from '../../../ui-kit/Input/Input'
 const InputPage = () => {
   return (
     <div className='content'>
-      <h1>Описание</h1>
+      <h1 className='pages-title'>
+      Описание
+        </h1>
       <div className='pages-description'>
       <p>Input – это поле ввода, которое позволяет пользователю писать или редактировать текст. Input обычно находится в форме, но также могут быть частью модального окна, поиска или карточки.</p>
       <h3>Слот Label</h3>

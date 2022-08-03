@@ -5,7 +5,9 @@ import '../../../index.scss'
 const ScrollAreaPage = () => {
   return (
     <div>
-      <h1>Описание</h1>
+      <h1 className='pages-title'>
+      Описание
+        </h1>
       <div className='pages-description'>
       <p>ScrollArea (Скроллер) - это компонентный контейнер для отображения прокручиваемых областей в пользовательском интерфейсе.
       </p>
