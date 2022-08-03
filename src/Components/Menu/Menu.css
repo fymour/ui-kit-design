@@ -9,6 +9,27 @@ a{
     position: fixed;
 }
 
+.description-menu{
+    width: 250px;
+}
+
+.menu-search{
+    color: #D3D8E6;
+    padding: 16px 24px;
+    width: 285px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #D3D8E6;
+    margin-top: 64px;
+    margin-bottom: 20px;
+}
+
+.menu-search input{
+    outline: none;
+    border: none;
+}
+
 .sidebar {
     width: 376px;
     height: 70vh;

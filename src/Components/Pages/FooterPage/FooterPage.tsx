@@ -14,8 +14,9 @@ export const FooterPage = () => {
     return (
         <div className='content'>
             <h1 className='pages-title'>
-                Описание
+            Footer
             </h1>
+            <div className='pages-tabs'></div>
             <div className='pages-description'>
                 <p>Footer  — это нижняя часть страницы. Footer имеет вторичную навигацию с ссылками
                     на метаинформацию, а также помогает пользователям найти информацию об авторских правах, лицензировании и другую необходимую информацию.

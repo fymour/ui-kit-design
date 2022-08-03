@@ -5,8 +5,9 @@ export const TokensPage = () => {
   return (
     <div>
       <div className='heading-title'>
-        <h2>Прочие токены</h2>
+      <h1 className='pages-title'>Прочие токены</h1>
       </div>
+      <div className='pages-tabs'></div>
       <div className="block-inside-ab-sys">
         <div className="left-ab-sys">
           <h2>

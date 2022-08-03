@@ -2,9 +2,14 @@
     font-weight: 500;
     font-size: 40px;
     line-height: 64px;
-    margin-top: 10%;
+    margin-top: 150px;
 }
 
 .description ul{
     font-style: re;
+}
+
+.pages-tabs{
+    margin-top: 60px;
+    border-bottom: 1px solid #E1E4EB;
 }

@@ -17,6 +17,7 @@ export const TypographyPage = () => {
         <h1 className='pages-title'>
           Типографика
         </h1>
+        <div className='pages-tabs'></div>
       <div className="block-one pages-description">
         <div className="block-one-inside">
           <p className='m0'>

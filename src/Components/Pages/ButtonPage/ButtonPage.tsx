@@ -8,8 +8,9 @@ export const ButtonPage = () => {
   return (
     <div className='content'>
       <h1 className='pages-title'>
-      Описание
+      Button
         </h1>
+        <div className='pages-tabs'></div>
       <div className='pages-description'>
         <p>Button — это компонент, который запускает действие. Также кнопки сообщают пользователям, что будет дальше.
 

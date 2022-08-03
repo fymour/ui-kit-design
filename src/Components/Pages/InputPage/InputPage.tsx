@@ -5,8 +5,9 @@ const InputPage = () => {
   return (
     <div className='content'>
       <h1 className='pages-title'>
-      Описание
+      Input
         </h1>
+        <div className='pages-tabs'></div>
       <div className='pages-description'>
       <p>Input – это поле ввода, которое позволяет пользователю писать или редактировать текст. Input обычно находится в форме, но также могут быть частью модального окна, поиска или карточки.</p>
       <h3>Слот Label</h3>

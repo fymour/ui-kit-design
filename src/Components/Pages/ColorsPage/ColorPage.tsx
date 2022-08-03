@@ -10,6 +10,7 @@ export const ColorPage = () => {
   return (
     <div className='color-page'>
       <h1 className='pages-title'>Система цветов</h1>
+      <div className='pages-tabs'></div>
       <div className="pages-description">
         <p className='color-paragraph'>Для синхронизации цветов в дизайне и разработке, используются дизайн-токены tokents / colors.
 Следуйте инструкции:</p>

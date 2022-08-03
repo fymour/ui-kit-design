@@ -5,8 +5,9 @@ export const LevelsInterfacePage = () => {
   return (
     <div>
       <div className='heading-title'>
-        <h2>Уровни интерфейса</h2>
+      <h1 className='pages-title'>Уровни интерфейса</h1>
       </div>
+      <div className='pages-tabs'></div>
       <div className="block-inside-ab-sys">
         <div className="left-ab-sys">
           <h2>

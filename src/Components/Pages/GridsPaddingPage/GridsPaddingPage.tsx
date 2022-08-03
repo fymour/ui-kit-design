@@ -17,6 +17,7 @@ export const GridsPaddingPage = () => {
       <div className='header-title'>
         <h1 className='pages-title'>Модуль и сетка</h1>
       </div>
+      <div className='pages-tabs'></div>
       <div className="pages-description">
         <div className='container'>
           <div className='wide-container'>
