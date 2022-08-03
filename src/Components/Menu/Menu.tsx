@@ -33,7 +33,6 @@ export default function Menu() {
         <p className='description-menu'>Дизайн стандарт для сайтов,
           порталов и информационных систем правоохранительных органов
         </p>
-        <p className='version'>Версия 1.0</p>
       </div>
       <div className='sidebar'>
       <div>
@@ -108,17 +107,6 @@ export default function Menu() {
         </div>}
       </div>
       </div>
-      
-      
-      
-      {/* <Link to="/"><div>Введение</div></Link>
-      <Link to="/glossary"><div>Глоссарий</div></Link>
-      <Link to="/button"><div>Button</div></Link>
-      <Link to="/input"><div>Input</div></Link>
-      <Link to="/tabs"><div>Tabs</div></Link>
-      <Link to="/collapse"><div>Collapse</div></Link>
-      <Link to="/footer"><div>Footer</div></Link>
-      <Link to="/scrollArea"><div>ScrollArea</div></Link> */}
     </div>
     </div>
   )

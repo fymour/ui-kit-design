@@ -4,13 +4,13 @@ a{
 
 .menu{
     background-color: #fff;
-    width: 25%;
+    width: 376px;
     height: 60vh;
     position: fixed;
 }
 
 .sidebar {
-    width: 25%;
+    width: 376px;
     height: 70vh;
     position: fixed;
     overflow: auto;
