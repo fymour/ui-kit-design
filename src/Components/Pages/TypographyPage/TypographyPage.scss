@@ -22,6 +22,10 @@
     margin: 0%;
     padding-top: 136px;
     .block-one-inside{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: flex-start;
         .m0{
             display: flex;
             width: 95%;
@@ -34,8 +38,15 @@
     }
     .block-one-inside-second{
         display: flex;
+        width: 100%;
         height: 80%;
-        justify-content: space-around;
+        justify-content: flex-start;
+        
+        .block-one-inside-in{
+            display: flex;
+            width: 99%;
+            justify-content: space-between;
+        }
         
         .left-block{
             display: flex;
@@ -136,13 +147,13 @@
 }
 .block-two-inside{
     display: flex;
-    width: 68%;
+    width: 90%;
     align-items: flex-start;
     justify-content: space-around;
 }
 .zagolovki{
     display: flex;
-    width: 75%;
+    width: 100%;
     
     align-items: flex-start;
     justify-content: space-between;
@@ -572,7 +583,7 @@
     }
 }
 
-@media all and ( min-width:1440px) and (max-width: 1921px) {
+@media all and (max-width: 1921px) {
  
     .block-two{
         display: flex;

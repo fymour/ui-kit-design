@@ -26,39 +26,41 @@ export const TypographyPage = () => {
             Чтобы изменить стиль текста в дизайне, следуйте инструкции:
           </p>
           <div className="block-one-inside-second">
-            <div className="left-block">
-              <p>
-                Скачайте шрифты
-              </p>
-              <span>
-                Все шрифты находятся по ссылке Шрифты Rubik Font Family
-              </span>
-              <img src={img_one} alt="" />
-            </div>
-            <div className="center-block">
-              <p>
-                Изучите систему шрифтов
-              </p>
-              <span>
-                Перед началом работы с шрифтами важно понять, как их использовать. Об этом можно прочитать на странице tokens / fonts
-              </span>
-              <img src={img_two} alt="" />
-            </div>
-            <div className="right-block">
-              <p>
-                Назначьте стиль тексту
-              </p>
-              <span>
-                После ввода текста необходимо задать ему стиль. Это можно сделать с помощью правой панели, нажав на иконку с точками в панели Text.
-              </span>
-              <img src={img_text} alt="" />
-              <span>
-                В открывшемся окне можно выбрать подходящий стиль.
-              </span>
-              <img src={img_text2} alt="" />
-              <span>
-                Подобным образом вы можете сменить один стиль на другой.
-              </span>
+            <div className="block-one-inside-in">
+              <div className="left-block">
+                <p>
+                  Скачайте шрифты
+                </p>
+                <span>
+                  Все шрифты находятся по ссылке Шрифты Rubik Font Family
+                </span>
+                <img src={img_one} alt="" />
+              </div>
+              <div className="center-block">
+                <p>
+                  Изучите систему шрифтов
+                </p>
+                <span>
+                  Перед началом работы с шрифтами важно понять, как их использовать. Об этом можно прочитать на странице tokens / fonts
+                </span>
+                <img src={img_two} alt="" />
+              </div>
+              <div className="right-block">
+                <p>
+                  Назначьте стиль тексту
+                </p>
+                <span>
+                  После ввода текста необходимо задать ему стиль. Это можно сделать с помощью правой панели, нажав на иконку с точками в панели Text.
+                </span>
+                <img src={img_text} alt="" />
+                <span>
+                  В открывшемся окне можно выбрать подходящий стиль.
+                </span>
+                <img src={img_text2} alt="" />
+                <span>
+                  Подобным образом вы можете сменить один стиль на другой.
+                </span>
+              </div>
             </div>
           </div>
         </div>
