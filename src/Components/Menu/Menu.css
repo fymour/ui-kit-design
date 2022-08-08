@@ -32,7 +32,7 @@ a{
 
 .sidebar {
     width: 376px;
-    height: 45vh;
+    height: 60vh;
     position: fixed;
     overflow: auto;
 }
