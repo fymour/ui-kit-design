@@ -36,6 +36,12 @@ a{
     position: fixed;
     overflow: auto;
 }
+    
+@media only screen and (min-width: 1200px) {
+    .sidebar {
+        height: 40vh;
+    }
+  }
 
 .version {
     position: fixed;
