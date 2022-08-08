@@ -32,7 +32,7 @@ a{
 
 .sidebar {
     width: 376px;
-    height: 420px;
+    height: 45vh;
     position: fixed;
     overflow: auto;
 }
@@ -90,7 +90,6 @@ a{
     display: flex;
     justify-content: space-between;
 }
-
 
 .show-menu-link{
     padding: 24px 28px;

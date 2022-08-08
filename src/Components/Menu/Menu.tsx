@@ -12,12 +12,12 @@ export default function Menu() {
   const [showFourth, setShowFourth] = useState<boolean>(false)
   const [showTypography, setShowTypography] = useState<boolean>(false)
 
-  
+
   const handleShowFirst = () => {
     setShowFirst(!showFirst)
   }
   const handleShowSecond = () => {
-    setShowSecond(!showSecond) 
+    setShowSecond(!showSecond)
   }
   const handleShowThird = () => {
     setShowThird(!showThird)
